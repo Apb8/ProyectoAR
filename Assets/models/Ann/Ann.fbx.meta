@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: ae7f754abf1cc2d48a6e51a40b36a2b6
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_+Hairclip.hairkin_0.3_0_0
+    second: {fileID: 2100000, guid: dcd5f318106bc284b9c9d6e256836f67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_+Shoes.002kutuGFDlow_0.1_0_0
+    second: {fileID: 2100000, guid: 7f678e925529075498e328576119aede, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_-Shoes.002asiGFDlow_0.1_0_0
+    second: {fileID: 2100000, guid: 89bdb1d4f13062d44bf442535f106c1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_002asiGFDlow(1)_0.1_0_0
+    second: {fileID: 2100000, guid: 506849a89c4d1a74d99319fee7a7cf2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_002handGFD1low(1)_0.1_0_0
+    second: {fileID: 2100000, guid: 00e39a2baabe2bf43925e6c87d401fe3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_002handGFD1low_0.1_0_0
+    second: {fileID: 2100000, guid: e703db63f8614974ebb90e4b6cf58d66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_002jyakGFDlow_0.1_0_0
+    second: {fileID: 2100000, guid: a77cb3f2d1247fc44ae608e047820ead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_002nasiGFDlow_0.1_0_0
+    second: {fileID: 2100000, guid: 81b80f2ee1257be4494a9860fafbf798, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_002pa-ka-2GFDlow_0.1_0_0
+    second: {fileID: 2100000, guid: 9c44d115c7f071f45b975245abedbf65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_002skinGFD1low_0.1_0_0
+    second: {fileID: 2100000, guid: 3eddf92d06e385748a72222a865868d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_002skinGFDkubilow_0.1_0_0
+    second: {fileID: 2100000, guid: bb581bf99597adc44b5eb0161d048e2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_faceeyebGFD(1)_0.3_0_0
+    second: {fileID: 2100000, guid: 17058bc5e6cd0784b9d99f6e97e87369, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_faceeyebGFD_0.3_0_0
+    second: {fileID: 2100000, guid: 41957a9a7b5ac7b48ace598b3e2a68fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_faceskinbGFD_0.1_0_0
+    second: {fileID: 2100000, guid: 8f855c6f242f108438f8318170d1baf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_faceskinbGFD_1_0.1_0_0
+    second: {fileID: 2100000, guid: 63b8a5e3995978b45bb65e49b39b24df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_faceskinbGFDkubi_0.1_0_0
+    second: {fileID: 2100000, guid: fab2aa015a9d140488e5dea2a6258ce6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_faceskinbGFDkubinasi_0.1_0_0
+    second: {fileID: 2100000, guid: 7d9f78c447c5be249ab914ee1b2796bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_faceskinbGFDnasi(1)_0.3_0_0
+    second: {fileID: 2100000, guid: d1e3cc77bf1e02d47b89434957f2ad6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_faceskinbGFDnasi_0.3_0_0
+    second: {fileID: 2100000, guid: 1eed095f30b458d41970ce51c25347c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_faceskinbGFDnasi_1_0.1_0_0
+    second: {fileID: 2100000, guid: 80f7bd15c03dc5249ae448f040a31828, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_hair1b_0.1_0_0
+    second: {fileID: 2100000, guid: 1e158a6cd65cc4d45b1f7df0bfb65823, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_hair3bnasi_0.1_0_0
+    second: {fileID: 2100000, guid: b3cb94d073ea3b1469470fbaddf2551d, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
