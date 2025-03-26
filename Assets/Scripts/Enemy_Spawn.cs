@@ -1,137 +1,72 @@
 using UnityEngine;
-using UnityEngine.XR.ARFoundation;
-using UnityEngine.XR.ARSubsystems;
 using System.Collections;
-using System.Collections.Generic;
 
-public class ARBlockSpawner : MonoBehaviour
+public class SimpleEnemySpawner : MonoBehaviour
 {
     [Header("Spawn Configuration")]
-    public GameObject blockPrefab;
-    public int maxBlocks = 5;
-    public float spawnRadius = 5f;
-    public float minSpawnTime = 3f;
-    public float maxSpawnTime = 8f;
-    public float spawnHeightOffset = 0.5f;
+    public GameObject enemyPrefab; // Prefab del enemigo/cubo
+    public int maxEnemies = 5; // Número máximo de enemigos
+    public float spawnRadius = 5f; // Radio de spawn esférico
+    public float minSpawnTime = 3f; // Tiempo mínimo entre spawns
+    public float maxSpawnTime = 8f; // Tiempo máximo entre spawns
+    public float enemyLifeTime = 5f; // Tiempo que durará cada enemigo
 
-    private ARRaycastManager raycastManager;
-    private ARSessionOrigin sessionOrigin;
-    private Camera arCamera;
-    private List<GameObject> spawnedBlocks = new List<GameObject>();
-
-    void Awake()
-    {
-        // Buscar componentes de manera más exhaustiva
-        raycastManager = FindObjectOfType<ARRaycastManager>();
-        sessionOrigin = FindObjectOfType<ARSessionOrigin>();
-        arCamera = Camera.main;
-
-        // Validaciones de componentes
-        if (raycastManager == null)
-            Debug.LogError("No se encontró ARRaycastManager. Asegúrate de tener uno en la escena.");
-
-        if (sessionOrigin == null)
-            Debug.LogError("No se encontró ARSessionOrigin. Asegúrate de tener uno en la escena.");
-
-        if (arCamera == null)
-            Debug.LogError("No se encontró la cámara principal.");
-
-        if (blockPrefab == null)
-            Debug.LogError("No has asignado un prefab de bloque.");
-    }
+    private Camera mainCamera;
+    private int currentEnemyCount = 0;
 
     void Start()
     {
-        // Iniciar la corutina solo si todos los componentes están presentes
-        if (raycastManager != null && arCamera != null && blockPrefab != null)
-        {
-            StartCoroutine(SpawnBlocksRandomly());
-        }
-        else
-        {
-            Debug.LogError("No se puede iniciar el spawner debido a componentes faltantes.");
-        }
+        mainCamera = Camera.main;
+        StartCoroutine(SpawnEnemiesRoutine());
     }
 
-    IEnumerator SpawnBlocksRandomly()
+    IEnumerator SpawnEnemiesRoutine()
     {
         while (true)
         {
-            // Esperar un tiempo aleatorio
+            // Esperar tiempo aleatorio
             float waitTime = Random.Range(minSpawnTime, maxSpawnTime);
-            Debug.Log($"Esperando {waitTime} segundos para spawnear un bloque");
-
             yield return new WaitForSeconds(waitTime);
 
-            // Verificar si aún no hemos alcanzado el máximo de bloques
-            if (spawnedBlocks.Count < maxBlocks)
+            // Spawnear si no se ha alcanzado el máximo
+            if (currentEnemyCount < maxEnemies)
             {
-                SpawnBlock();
-            }
-            else
-            {
-                Debug.Log("Máximo de bloques alcanzado");
+                SpawnEnemy();
             }
         }
     }
 
-    void SpawnBlock()
+    void SpawnEnemy()
     {
-        Vector3 randomPosition = GetRandomPositionNearCamera();
+        // Generar posición aleatoria en una esfera alrededor de la cámara
+        Vector3 randomSpherePoint = Random.insideUnitSphere * spawnRadius;
+        Vector3 spawnPosition = mainCamera.transform.position + randomSpherePoint;
 
-        if (randomPosition != Vector3.zero)
-        {
-            Debug.Log($"Spawneando bloque en posición: {randomPosition}");
+        // Instanciar enemigo
+        GameObject enemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+        currentEnemyCount++;
 
-            // Instanciar el bloque usando el sessionOrigin para posicionamiento correcto
-            GameObject newBlock = Instantiate(blockPrefab, randomPosition, Quaternion.identity, sessionOrigin.transform);
-            spawnedBlocks.Add(newBlock);
+        // Orientar hacia la cámara
+        enemy.transform.LookAt(mainCamera.transform);
 
-            StartCoroutine(RemoveBlockAfterDelay(newBlock));
-        }
-        else
-        {
-            Debug.LogWarning("No se pudo encontrar una posición válida para spawnear");
-        }
+        // Modificar rotación para que solo rote en Y (evitar inclinación)
+        Vector3 currentRotation = enemy.transform.eulerAngles;
+        enemy.transform.rotation = Quaternion.Euler(0, currentRotation.y, 0);
+
+        // Destruir después de un tiempo
+        StartCoroutine(DestroyEnemyAfterTime(enemy));
     }
 
-    Vector3 GetRandomPositionNearCamera()
+    IEnumerator DestroyEnemyAfterTime(GameObject enemy)
     {
-        if (arCamera == null) return Vector3.zero;
+        // Esperar el tiempo de vida
+        yield return new WaitForSeconds(enemyLifeTime);
 
-        // Generar una posición aleatoria dentro del radio
-        Vector2 randomPointInCircle = Random.insideUnitCircle * spawnRadius;
-
-        // Calcular la posición en el mundo
-        Vector3 spawnPosition = arCamera.transform.position +
-            new Vector3(randomPointInCircle.x, 0, randomPointInCircle.y);
-
-        // Lista para almacenar resultados del raycast
-        var hits = new List<ARRaycastHit>();
-
-        // Realizar raycast para encontrar un punto en el plano
-        if (raycastManager.Raycast(spawnPosition, hits, TrackableType.PlaneWithinPolygon))
+        // Destruir y reducir contador
+        if (enemy != null)
         {
-            // Obtener el primer punto de impacto
-            Vector3 hitPoint = hits[0].pose.position;
-
-            // Añadir un pequeño offset en altura
-            hitPoint.y += spawnHeightOffset;
-
-            return hitPoint;
-        }
-
-        return Vector3.zero;
-    }
-
-    IEnumerator RemoveBlockAfterDelay(GameObject block, float delay = 30f)
-    {
-        yield return new WaitForSeconds(delay);
-
-        if (block != null)
-        {
-            spawnedBlocks.Remove(block);
-            Destroy(block);
+            Destroy(enemy);
+            currentEnemyCount--;
         }
     }
 }
