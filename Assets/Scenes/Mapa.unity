@@ -7062,7 +7062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueData: {fileID: 11400000, guid: ea887a5e93036e34e9e533e9c37b4e25, type: 2}
-  interactionDistance: 1.5
+  interactionDistance: 5
 --- !u!1001 &1601957920
 PrefabInstance:
   m_ObjectHideFlags: 0
