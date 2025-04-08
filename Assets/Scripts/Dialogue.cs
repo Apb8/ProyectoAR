@@ -14,6 +14,13 @@ public class Dialogue : ScriptableObject
         public string characterName;
         public Sprite characterPortrait;
         [TextArea(3, 5)] public string dialogueText;
+        public Response[] responses;
+    }
+    [System.Serializable]
+    public struct Response
+    {
+        public string responseText;
+        public Dialogue nextDialogue; //apunta al siguiente dialogo (revisar como lo haremos)
     }
 
     public DialogueLine[] lines;
