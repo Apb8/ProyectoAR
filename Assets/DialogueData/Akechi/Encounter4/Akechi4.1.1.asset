@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ac640f45a60e4a9842c9150de7eab, type: 3}
+  m_Name: Akechi4.1.1
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Akechi
+    characterPortrait: {fileID: 0}
+    dialogueText: "Hah\u2026 Digamos que a\xFAn no tengo una respuesta clara."
+    responses: []
+  - characterName: Akechi
+    characterPortrait: {fileID: 0}
+    dialogueText: "Es curioso\u2026 Pensaba que una vez libre, todo ser\xEDa m\xE1s
+      f\xE1cil. Pero ahora veo que la libertad tambi\xE9n conlleva responsabilidad."
+    responses:
+    - responseText: "Hacer lo correcto nunca ha sido f\xE1cil."
+      nextDialogue: {fileID: 11400000, guid: 238ba6c51531e284f8aab83bb28f03a9, type: 2}
+    - responseText: Al menos ahora decides por ti mismo.
+      nextDialogue: {fileID: 11400000, guid: 689eba7482ba01742aea917dcb60d37b, type: 2}

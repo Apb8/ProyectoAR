@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ac640f45a60e4a9842c9150de7eab, type: 3}
+  m_Name: Akechi1.1.1
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Akechi
+    characterPortrait: {fileID: 0}
+    dialogueText: "Hm\u2026 No s\xE9 si creerte. Contigo, hasta la casualidad parece
+      calculada."
+    responses: []
+  - characterName: Akechi
+    characterPortrait: {fileID: 0}
+    dialogueText: "\xDAltimamente, parece que el pasado no deja de perseguirme. Como
+      si la gente no supiera dejar ciertos asuntos atr\xE1s."
+    responses:
+    - responseText: Algunas cosas nunca se olvidan.
+      nextDialogue: {fileID: 11400000, guid: c35530967d63498409b3c1222de9bcc9, type: 2}
+    - responseText: "\xBFTe molesta que a\xFAn hablen de los Ladrones Fantasma?"
+      nextDialogue: {fileID: 11400000, guid: c5ecc6b4147b9a949ba10dae0aaf5c9a, type: 2}
