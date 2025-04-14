@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ac640f45a60e4a9842c9150de7eab, type: 3}
+  m_Name: Makoto2.2.2
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Makoto
+    characterPortrait: {fileID: 0}
+    dialogueText: "Hm\u2026 Supongo que a veces olvido que no siempre tengo que tener
+      la respuesta."
+    responses: []
+  - characterName: Makoto
+    characterPortrait: {fileID: 0}
+    dialogueText: "\xBFSabes? A veces me pregunto c\xF3mo ser\xEDa todo sin tantas
+      responsabilidades."
+    responses:
+    - responseText: "\xBFLo has pensado en serio?"
+      nextDialogue: {fileID: 11400000, guid: 5776bdeeb2af24046bc3c0e4dce3befd, type: 2}
+    - responseText: Puedes encontrar un punto medio.
+      nextDialogue: {fileID: 11400000, guid: b84b12a037aae644f974d1d80299b4d0, type: 2}

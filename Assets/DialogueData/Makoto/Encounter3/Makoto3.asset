@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ac640f45a60e4a9842c9150de7eab, type: 3}
+  m_Name: Makoto3
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Makoto
+    characterPortrait: {fileID: 0}
+    dialogueText: "He estado pensando... Tal vez intento hacer todo por mi cuenta
+      cuando deber\xEDa confiar m\xE1s en los dem\xE1s."
+    responses: []
+  - characterName: Makoto
+    characterPortrait: {fileID: 0}
+    dialogueText: "Pero... es dif\xEDcil.  Siempre siento que si no lo hago yo, nadie
+      lo har\xE1 bien."
+    responses:
+    - responseText: "Eso es lo que hacen los l\xEDderes."
+      nextDialogue: {fileID: 11400000, guid: ae503a3ea4491cd449fcfb4701fb74b4, type: 2}
+    - responseText: "Pedir ayuda no est\xE1 mal."
+      nextDialogue: {fileID: 11400000, guid: 2c0d4647e0bd9864a938ea7fdf69d03a, type: 2}
