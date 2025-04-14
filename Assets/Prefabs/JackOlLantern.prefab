@@ -63,6 +63,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JackOlLantern
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 89abc42e54231a245b352eb9d0cf0b0e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Persona
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -71,6 +76,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 6478507605626607983}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 89abc42e54231a245b352eb9d0cf0b0e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 194876928759329245}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 89abc42e54231a245b352eb9d0cf0b0e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6520250182720504352}
   m_SourcePrefab: {fileID: 100100000, guid: 89abc42e54231a245b352eb9d0cf0b0e, type: 3}
 --- !u!1 &5874771273418126053 stripped
 GameObject:
@@ -99,3 +112,39 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.30784512, y: 0.2747271, z: 0.61795807}
   m_Center: {x: 0.01179266, y: 0.36263645, z: 0.40819454}
+--- !u!65 &194876928759329245
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5874771273418126053}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3763275, y: 0.6196625, z: 0.6169424}
+  m_Center: {x: 0.024744034, y: 0.4896418, z: -0.04192829}
+--- !u!114 &6520250182720504352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5874771273418126053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bb4ab455d303594c98375a7cc2ea706, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyDelay: 0.2
+  destroyEffectPrefab: {fileID: 0}
+  scoreValue: 100

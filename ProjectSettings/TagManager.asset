@@ -7,6 +7,8 @@ TagManager:
   - Persona
   - damage
   - save
+  - Persona_Atack
+  - player_atack
   layers:
   - Default
   - TransparentFX
