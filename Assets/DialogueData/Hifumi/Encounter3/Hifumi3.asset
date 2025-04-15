@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ac640f45a60e4a9842c9150de7eab, type: 3}
+  m_Name: Hifumi3
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Hifumi
+    characterPortrait: {fileID: 0}
+    dialogueText: "\xDAltimamente he sentido m\xE1s presi\xF3n que nunca\u2026 Mi
+      familia espera que me convierta en la mejor jugadora de sh\u014Dgi."
+    responses:
+    - responseText: "\xBFY eso es lo que t\xFA quieres?"
+      nextDialogue: {fileID: 11400000, guid: 7f09e782f3798b946ae1939c00efb5a7, type: 2}
+    - responseText: "Si te gusta, no deber\xEDa importar lo que piensen."
+      nextDialogue: {fileID: 11400000, guid: dad9ee9dcfa6fdc43a985659c966c2b2, type: 2}
+    - responseText: "Deber\xEDas decidirlo t\xFA misma."
+      nextDialogue: {fileID: 11400000, guid: 31d4c9f665d595046a756e38ed6d97e6, type: 2}

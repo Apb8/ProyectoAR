@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ac640f45a60e4a9842c9150de7eab, type: 3}
+  m_Name: Hifumi1.1.2
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Hifumi
+    characterPortrait: {fileID: 0}
+    dialogueText: Entonces aprendes y te preparas para la siguiente partida.
+    responses: []
+  - characterName: Hifumi
+    characterPortrait: {fileID: 0}
+    dialogueText: "He pasado tanto tiempo perfeccionando mi estrategia\u2026 pero
+      a\xFAn me falta mucho por mejorar."
+    responses:
+    - responseText: Siempre hay espacio para crecer.
+      nextDialogue: {fileID: 11400000, guid: 50d6d8c4681acec44b6733a134f0ba6c, type: 2}
+    - responseText: "Tal vez deber\xEDas relajarte un poco m\xE1s."
+      nextDialogue: {fileID: 11400000, guid: aca81e4311d390e4e91dc819e8854fd1, type: 2}
