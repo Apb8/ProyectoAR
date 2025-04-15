@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ac640f45a60e4a9842c9150de7eab, type: 3}
+  m_Name: Akechi3
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Akechi
+    characterPortrait: {fileID: 0}
+    dialogueText: "A veces me pregunto si alguna vez ser\xE9 realmente libre. Si
+      todo lo que he hecho hasta ahora ha sido por mi propia voluntad\u2026 o por
+      la de alguien m\xE1s."
+    responses:
+    - responseText: "T\xFA decides tu propio camino."
+      nextDialogue: {fileID: 11400000, guid: 0786819e08ddabf42bbf07004df8f070, type: 2}
+    - responseText: "\xBFSigues sinti\xE9ndote atrapado?"
+      nextDialogue: {fileID: 11400000, guid: e8bc5e8d1ac52514a9a6203f03b6e608, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ac640f45a60e4a9842c9150de7eab, type: 3}
+  m_Name: Ann1
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Ann
+    characterPortrait: {fileID: 0}
+    dialogueText: "Ah, justo a quien quer\xEDa ver. Necesito distraerme un poco."
+    responses: []
+  - characterName: Ann
+    characterPortrait: {fileID: 0}
+    dialogueText: "\xDAltimamente siento que mi cabeza no para y solo quiero relajarme
+      un rato."
+    responses:
+    - responseText: "\xBFProblemas con el modelaje?"
+      nextDialogue: {fileID: 11400000, guid: b22587d54e3863143808bd01b11ae2aa, type: 2}
+    - responseText: "\xBFHas tenido un mal d\xEDa?"
+      nextDialogue: {fileID: 11400000, guid: e1b69801c07427b4b81c122d70211dc0, type: 2}
+    - responseText: "Distraerte, \xBFc\xF3mo?"
+      nextDialogue: {fileID: 11400000, guid: 7d07e45ecf8c1d949bec19d081be7273, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ac640f45a60e4a9842c9150de7eab, type: 3}
+  m_Name: Ryuji2
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Ryuji
+    characterPortrait: {fileID: 0}
+    dialogueText: "T\xEDo, llevo d\xE1ndole vueltas a algo que dijiste la \xFAltima
+      vez\u2026 Tal vez deber\xEDa buscar algo m\xE1s aparte del atletismo."
+    responses: []
+  - characterName: Ryuji
+    characterPortrait: {fileID: 0}
+    dialogueText: "Pero es que no tengo ni idea de por d\xF3nde empezar. Nunca he
+      sido bueno en eso de \"pensar a futuro\"."
+    responses:
+    - responseText: Prueba algo nuevo.
+      nextDialogue: {fileID: 11400000, guid: 4363d6894605584468542cb9ac07acec, type: 2}
+    - responseText: No tienes que decidir ya.
+      nextDialogue: {fileID: 11400000, guid: 8dd563aab2c21a64f8b93af722d1132e, type: 2}
+    - responseText: "\xBFQu\xE9 te llama la atenci\xF3n \xFAltimamente?"
+      nextDialogue: {fileID: 11400000, guid: 48ba5c31a5ab4734f886eb0c9d650f0b, type: 2}

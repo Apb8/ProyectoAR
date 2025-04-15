@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ac640f45a60e4a9842c9150de7eab, type: 3}
+  m_Name: Ryuji4.1.1
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Ryuji
+    characterPortrait: {fileID: 0}
+    dialogueText: "\xA1Lo s\xE9! Nunca pens\xE9 que me emocionar\xEDa por esto."
+    responses: []
+  - characterName: Ryuji
+    characterPortrait: {fileID: 0}
+    dialogueText: "Supongo que siempre me qued\xE9 atrapado en lo que perd\xED, en
+      lugar de pensar en lo que pod\xEDa ganar."
+    responses:
+    - responseText: Lo importante es seguir adelante.
+      nextDialogue: {fileID: 11400000, guid: 3d0282755127ed449876d234f786bffd, type: 2}
+    - responseText: Mejor tarde que nunca.
+      nextDialogue: {fileID: 11400000, guid: 09b838a4ce5cac245babb0a34eda845b, type: 2}

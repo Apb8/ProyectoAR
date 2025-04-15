@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ac640f45a60e4a9842c9150de7eab, type: 3}
+  m_Name: Ann3.1.2
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Ann
+    characterPortrait: {fileID: 0}
+    dialogueText: "\xA1Voy a hacer lo que realmente quiero sin miedo! Bueno\u2026
+      con menos miedo, al menos."
+    responses: []
+  - characterName: Ann
+    characterPortrait: {fileID: 0}
+    dialogueText: Tal vez nunca deje de sentirme insegura del todo, pero quiero aprender
+      a seguir adelante a pesar de eso.
+    responses:
+    - responseText: Eso es lo que significa ser fuerte.
+      nextDialogue: {fileID: 11400000, guid: f5ab47ddf757ed443be1bd3ab7ba6977, type: 2}
+    - responseText: Nadie es totalmente seguro todo el tiempo.
+      nextDialogue: {fileID: 11400000, guid: 98741586d44e77048985c5f3742de4e3, type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ac640f45a60e4a9842c9150de7eab, type: 3}
+  m_Name: Ann2
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Ann
+    characterPortrait: {fileID: 0}
+    dialogueText: "\xBFAlguna vez sientes que no eres suficiente, sin importar cu\xE1nto
+      te esfuerces? No s\xE9, es como si por m\xE1s que lo intente, siempre quedara
+      algo por hacer mejor."
+    responses:
+    - responseText: "Todo el mundo lo siente en alg\xFAn momento."
+      nextDialogue: {fileID: 11400000, guid: 3584238342d106549a5bce2f8f8e30a4, type: 2}
+    - responseText: "Eres m\xE1s fuerte de lo que crees."
+      nextDialogue: {fileID: 11400000, guid: 34badb443d0bedb42b2c033c59a5094c, type: 2}
+    - responseText: "\xBFPor qu\xE9 piensas as\xED?"
+      nextDialogue: {fileID: 11400000, guid: 9ae522287d5b8384ebc25a37f6833eb2, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ac640f45a60e4a9842c9150de7eab, type: 3}
+  m_Name: Akechi3.1.1
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Akechi
+    characterPortrait: {fileID: 0}
+    dialogueText: "Quiz\xE1s\u2026 Pero algunas cadenas no se rompen tan f\xE1cilmente."
+    responses: []
+  - characterName: Akechi
+    characterPortrait: {fileID: 0}
+    dialogueText: "Me doy cuenta de que sigo repitiendo algunos errores del pasado.
+      Quiz\xE1s no se trata de ser libre, sino de aceptar qui\xE9n soy."
+    responses:
+    - responseText: "No tienes por qu\xE9 cargar con todo."
+      nextDialogue: {fileID: 11400000, guid: 7b96570b217a2cb4ab32e156374e00ae, type: 2}
+    - responseText: Aprender del pasado es lo que importa.
+      nextDialogue: {fileID: 11400000, guid: 544863b469898504b8f8eb5463e2ee29, type: 2}

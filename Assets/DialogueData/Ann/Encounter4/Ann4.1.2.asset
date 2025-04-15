@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ac640f45a60e4a9842c9150de7eab, type: 3}
+  m_Name: Ann4.1.2
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Ann
+    characterPortrait: {fileID: 0}
+    dialogueText: "Eso\u2026 es muy bonito de tu parte."
+    responses: []
+  - characterName: Ann
+    characterPortrait: {fileID: 0}
+    dialogueText: "Gracias por escucharme todo este tiempo. De verdad, no s\xE9 qu\xE9
+      habr\xEDa hecho sin alguien con quien hablar de esto."
+    responses:
+    - responseText: "Siempre te apoyar\xE9."
+      nextDialogue: {fileID: 11400000, guid: aab50e1e0d181fb4283db5b5400ad6fb, type: 2}
+    - responseText: "Ahora sal ah\xED y brilla."
+      nextDialogue: {fileID: 11400000, guid: 824d99aad3929234b889b59b4bc89b1f, type: 2}
