@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ac640f45a60e4a9842c9150de7eab, type: 3}
+  m_Name: Kawakami4
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Kawakami
+    characterPortrait: {fileID: 0}
+    dialogueText: "He estado pensando en lo que me dijiste\u2026 y creo que necesito
+      hacer un cambio."
+    responses:
+    - responseText: "\xBFVas a dejar uno de los trabajos?"
+      nextDialogue: {fileID: 11400000, guid: 08f51f29203c8c140b2da1e95188fa58, type: 2}
+    - responseText: "\xBFQu\xE9 planeas hacer?"
+      nextDialogue: {fileID: 11400000, guid: 8c4dc8b8f308e78418021c23859f74a6, type: 2}
