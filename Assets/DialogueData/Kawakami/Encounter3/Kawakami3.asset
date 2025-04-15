@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ac640f45a60e4a9842c9150de7eab, type: 3}
+  m_Name: Kawakami3
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Kawakami
+    characterPortrait: {fileID: 0}
+    dialogueText: "Hoy una estudiante me pregunt\xF3 por qu\xE9 parezco tan cansada\u2026
+      No supe qu\xE9 responderle."
+    responses:
+    - responseText: Tal vez es momento de cambiar algo.
+      nextDialogue: {fileID: 11400000, guid: 583d1ab036298654a81ccc886fc2ce42, type: 2}
+    - responseText: "Eso solo muestra que te preocupan los dem\xE1s."
+      nextDialogue: {fileID: 11400000, guid: d87eec4426735c24fa6395848c511bf9, type: 2}
+    - responseText: "\xBFQu\xE9 le respondiste?"
+      nextDialogue: {fileID: 11400000, guid: 7f8432806fc6acd4aa4fcb3ace946601, type: 2}
