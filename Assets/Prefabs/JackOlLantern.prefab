@@ -66,7 +66,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 89abc42e54231a245b352eb9d0cf0b0e,
         type: 3}
       propertyPath: m_TagString
-      value: Persona
+      value: Persona_Atack
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -84,6 +84,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 6520250182720504352}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 89abc42e54231a245b352eb9d0cf0b0e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 380627733856053049}
   m_SourcePrefab: {fileID: 100100000, guid: 89abc42e54231a245b352eb9d0cf0b0e, type: 3}
 --- !u!1 &5874771273418126053 stripped
 GameObject:
@@ -106,7 +110,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 0
   serializedVersion: 3
@@ -148,3 +152,20 @@ MonoBehaviour:
   destroyDelay: 0.2
   destroyEffectPrefab: {fileID: 0}
   scoreValue: 100
+--- !u!114 &380627733856053049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5874771273418126053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e0995d01a44f754bb19418d6f43ff3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  moveSpeed: 0.5
+  attackDistance: 1.5
+  attackActiveTime: 0.5
+  attackCooldownTime: 1

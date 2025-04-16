@@ -14,9 +14,9 @@ public class HealthController : MonoBehaviour
         currentHealth = maxHealth;
         UpdateHealthBar();
     }
-    private void OnCollisionEnter (Collision collision)
+    private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Persona"))
+        if (collision.gameObject.CompareTag("Persona_Atack"))
         {
             ReduceHealth(damageAmount);
         }
