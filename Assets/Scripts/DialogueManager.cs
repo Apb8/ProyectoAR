@@ -32,7 +32,10 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        if (isDialogueActive || dialogue == null) return;
+        //if (isDialogueActive || dialogue == null) return; aquesta putisima lñinea feia q falles
+        if (dialogue == null) return;
+        if (isDialogueActive) EndDialogue(); //tancar dialeg actual abans de començar el nou
+
         isDialogueActive = true;
         currentDialogue = dialogue;
         dialogueQueue.Clear();
@@ -93,7 +96,10 @@ public class DialogueManager : MonoBehaviour
     {
         responseContainer.gameObject.SetActive(false);
 
-        if(response.nextDialogue != null)
+        Debug.Log($"Respuesta seleccionada: {response.responseText} | nextDialogue: {(response.nextDialogue ? response.nextDialogue.name : "NULL")}");
+
+
+        if (response.nextDialogue != null)
         {
             StartDialogue(response.nextDialogue);
         }
@@ -107,5 +113,9 @@ public class DialogueManager : MonoBehaviour
     {
         isDialogueActive = false;
         dialogueUI.SetActive(false);
+
+        dialogueText.text = ""; //Limpia texto
+        characterNameText.text = "";
+        characterPortrait.sprite = null;
     }
 }
