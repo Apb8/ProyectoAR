@@ -8,7 +8,10 @@ public class Score_logic : MonoBehaviour
     public TextMeshProUGUI scoretext;
     public int score = 0;
 
-    // Update is called once per frame
+    private void Start()
+    {
+        PlayerPrefs.GetInt("PlayerScore", score);
+    }
     void Update()
     {
         scoretext.text = "Score: " + score.ToString() + "!";
