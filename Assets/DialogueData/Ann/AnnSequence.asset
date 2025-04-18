@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd91a4c965b32241adbfb0fd7859d02, type: 3}
+  m_Name: AnnSequence
+  m_EditorClassIdentifier: 
+  dialogues:
+  - {fileID: 11400000, guid: 2d525b0a46c7ddd49862a28743ed7d19, type: 2}
+  - {fileID: 11400000, guid: 290eb8f8874dc4d4baccb02604f4864d, type: 2}
+  - {fileID: 11400000, guid: 4323a85f14680d14589136c75b197b8a, type: 2}
+  - {fileID: 11400000, guid: 6d889a14301bdf649ab114f290dd8dfc, type: 2}
