@@ -8,11 +8,17 @@ public class EnemyBehavior : MonoBehaviour
 
     public float attackActiveTime = 0.5f;
     public float attackCooldownTime = 1.0f;
+    public int damageAmount = 10;
+
+    public HealthController playerHealthController;
+    public string healthControllerTag = "Player";
 
     private Collider attackCollider;
     private bool isNearTarget = false;
     private float attackTimer = 0f;
     private bool isAttackActive = false;
+
+    private Animator animator;
 
     void Start()
     {
@@ -27,8 +33,23 @@ public class EnemyBehavior : MonoBehaviour
         {
             attackCollider.enabled = false;
         }
-
-        // No necesitamos añadir el EnemyIndicator aquí porque lo hace el spawner
+        animator = GetComponent<Animator>();
+        if (playerHealthController == null)
+        {
+            GameObject healthObject = GameObject.FindGameObjectWithTag(healthControllerTag);
+            if (healthObject != null)
+            {
+                playerHealthController = healthObject.GetComponent<HealthController>();
+            }
+            if (playerHealthController == null)
+            {
+                playerHealthController = FindObjectOfType<HealthController>();
+            }
+            if (playerHealthController == null)
+            {
+                Debug.LogWarning("no se encontro healthcontroller");
+            }
+        }
     }
 
     void Update()
@@ -43,8 +64,10 @@ public class EnemyBehavior : MonoBehaviour
         {
             if (!isNearTarget)
             {
+                animator.SetTrigger("Attack");
                 isNearTarget = true;
                 attackTimer = 0f;
+                ApplyDamageToPlayer();
             }
 
             HandleAttackCycle();
@@ -86,15 +109,18 @@ public class EnemyBehavior : MonoBehaviour
                 attackCollider.enabled = true;
                 isAttackActive = true;
                 attackTimer = 0f;
+                animator.SetTrigger("Attack");
+                ApplyDamageToPlayer();
             }
         }
     }
 
-    void OnCollisionEnter(Collision collision)
+    void ApplyDamageToPlayer()
     {
-        if (collision.gameObject.transform == target)
+        if (playerHealthController != null && isNearTarget)
         {
-            Debug.Log("¡Colisión con el jugador!");
+            playerHealthController.TakeDamage(damageAmount);
+            Debug.Log("-" + damageAmount + " de vida");
         }
     }
 }

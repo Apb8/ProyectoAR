@@ -10,10 +10,11 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private int scoreValue = 100;
 
     private AudioSource deathSound;
-
+    public Score_logic scorelogic;
     private void Start()
     {
         deathSound = GetComponent<AudioSource>();
+        scorelogic = FindObjectOfType<Score_logic>();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -86,5 +87,6 @@ public class EnemyHealth : MonoBehaviour
 
     private void AddScore()
     {
+        scorelogic.score += 100;
     }
 }
