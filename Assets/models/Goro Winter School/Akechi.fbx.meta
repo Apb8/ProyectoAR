@@ -3,7 +3,112 @@ guid: b6881e581fcf8544295d267bf25700ec
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0001t1nasi_0.2_0_0
+    second: {fileID: 2100000, guid: 143a7af422dc37946a526898cfe706cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0001t1nasiago_0.1_0_0
+    second: {fileID: 2100000, guid: d52dae70335d0e44e99ba89d45e4bc71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009body1skin2low(1)_0.1_0_0
+    second: {fileID: 2100000, guid: eb7af1444631762448911cd596697b20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009body1skin2low_0.1_0_0
+    second: {fileID: 2100000, guid: b71203245ae6f1743935f119e4378e6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009body1skintelow(1)_0.1_0_0
+    second: {fileID: 2100000, guid: bda0e6bb7bbfd3c4a9b75364c59f0b37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009body1skintelow_0.1_0_0
+    second: {fileID: 2100000, guid: e030ef0122574c24db198c1b72c59a77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009bodyjyakelow(1)_0.1_0_0
+    second: {fileID: 2100000, guid: 42cd4503aa7f1694dab441c8dfa74f3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009bodyjyakelow_0.1_0_0
+    second: {fileID: 2100000, guid: 04dc669270483d240b5f883deb903a1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009bodypantlow(1)_0.1_0_0
+    second: {fileID: 2100000, guid: 34438f7cf8753e9409171626d7d9ec03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009bodypantlow_0.1_0_0
+    second: {fileID: 2100000, guid: cd7f8944b42a7eb43aee29f09a1b68fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009bodysyatulow_0.1_0_0
+    second: {fileID: 2100000, guid: b5e5ce25b744db44ea6c29fd6745db7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009hairlow_0.1_0_0
+    second: {fileID: 2100000, guid: 0e65a8d847940024d84c37b8ccd0bc03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009t1eye(1)_0.3_0_0
+    second: {fileID: 2100000, guid: 249880ccbbd26c742aca04b6cc5ffc6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009t1eye(2)_0.3_0_0
+    second: {fileID: 2100000, guid: b6dd207f544539b46b36bdbe7790b285, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009t1eye(3)_0.3_0_0
+    second: {fileID: 2100000, guid: 5f488e7b22d073d41b531eacafb0d4e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009t1eye_0.3_0_0
+    second: {fileID: 2100000, guid: c5845be48b059ec4fb0fe8bd2088bc0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009t1facekuti_0.1_0_0
+    second: {fileID: 2100000, guid: bde692a91afb33e40874f8cd8dcbf27f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009t1faceskin1_0.1_0_0
+    second: {fileID: 2100000, guid: aeef14c64c76e6240a92e90f9d06e57f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_c0009t1faceskin2_0.1_0_0
+    second: {fileID: 2100000, guid: 085683fcc9971a54f95b2cb9acd0ddbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_hairnasilow_0.1_0_0
+    second: {fileID: 2100000, guid: 1ce3d912d61168a42a9e1a758ea02559, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_c0009hairmaelow_0.1_0_0
+    second: {fileID: 2100000, guid: 4080076aa388f314fac4dee440883ebc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

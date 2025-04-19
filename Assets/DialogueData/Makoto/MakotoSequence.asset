@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd91a4c965b32241adbfb0fd7859d02, type: 3}
+  m_Name: MakotoSequence
+  m_EditorClassIdentifier: 
+  dialogues:
+  - {fileID: 11400000, guid: e63bd1716c2602b4782ef6e352d2d079, type: 2}
+  - {fileID: 11400000, guid: c516125c6f666d948bfb838caa5e7ed0, type: 2}
+  - {fileID: 11400000, guid: 47565c4a41eb8fe4384ff93017d25b61, type: 2}
+  - {fileID: 11400000, guid: c6e71afd6e41aa843b05d74ce6ec8682, type: 2}

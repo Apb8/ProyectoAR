@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd91a4c965b32241adbfb0fd7859d02, type: 3}
+  m_Name: HifumiSequence
+  m_EditorClassIdentifier: 
+  dialogues:
+  - {fileID: 11400000, guid: 8c95eeb95ed7d88438f9a97547606bbb, type: 2}
+  - {fileID: 11400000, guid: adbaedd5df52ddc40beda8ea314da49f, type: 2}
+  - {fileID: 11400000, guid: 2d3c82e5535ba5e48872af59d7d95348, type: 2}
+  - {fileID: 11400000, guid: 13cbb882bce0c4b4887e21b6c4d4d766, type: 2}

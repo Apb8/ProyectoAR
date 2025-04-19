@@ -3,7 +3,97 @@ guid: 494ceefec8bd0d442bff2cde6a150a48
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidblack_0.1_0_0
+    second: {fileID: 2100000, guid: bed095b1239ee7e4fb4f272ad93a16ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maiddress_0.1_0_0
+    second: {fileID: 2100000, guid: 84031b35262424d4e9888cc6504752ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidfaceeyeGFD(1)_0.3_0_0
+    second: {fileID: 2100000, guid: 4b2ce06f41da3a34c990ddd6ffa76959, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidfaceeyeGFD_0.3_0_0
+    second: {fileID: 2100000, guid: 298eef24f230f4940883f8be40bda249, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidfacemouth_0.1_0_0
+    second: {fileID: 2100000, guid: 86d2a4f98916c784592261b111a29488, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidfacemouth_1_0.1_0_0
+    second: {fileID: 2100000, guid: ca8f7e949df5ab04d9d6886d14528252, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidfaceskinGFD(1)_0.3_0_0
+    second: {fileID: 2100000, guid: 49e9bd4a789ff4447a382d8220d0d55d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidfaceskinGFD_0.3_0_0
+    second: {fileID: 2100000, guid: 4713885ed481798408b25f3577de8b9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidfaceskinGFD_1_0.1_0_0
+    second: {fileID: 2100000, guid: da5b9dd92c101ae4790338ed8d76b586, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidfaceskinGFDkubi_0.1_0_0
+    second: {fileID: 2100000, guid: dbd7a933670e62e4e959cc56effe6236, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidfaceskinGFDnasi_0.1_0_0
+    second: {fileID: 2100000, guid: b2c83f17a4d8892468cfba928fdf33a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidhair_0.1_0_0
+    second: {fileID: 2100000, guid: ec76e495652f09243a50472b1af58b71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidkutu_0.1_0_0
+    second: {fileID: 2100000, guid: 6e8198774e0167745ace963ca9310016, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidskin_0.1_0_0
+    second: {fileID: 2100000, guid: 6675604cc5ed3974e8ca865d8964fa9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidwhite_0.5_0_0
+    second: {fileID: 2100000, guid: 414bb93c182aedf4d9ffa0dacafb770c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidwhite_1(1)_0.1_0_0
+    second: {fileID: 2100000, guid: 51eab6350d6946b4cbac92b333867218, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidwhite_1(2)_0.1_0_0
+    second: {fileID: 2100000, guid: efbea994191627741933e295b6b861e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_maidwhite_1_0.1_0_0
+    second: {fileID: 2100000, guid: b870065b362bf4b4ea4c30e555dab1a6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,107 @@ guid: d96149cf1ddd2a546987b9a71ef04daa
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_+Boots.006002boots_0.1_0_0
+    second: {fileID: 2100000, guid: f6d768d893e416440b85f82a9bb3bef5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_-Boots.006002boots(1)_0.1_0_0
+    second: {fileID: 2100000, guid: 10796e85c4cf3b4458c8040d2448ac76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006002boots(2)_0.1_0_0
+    second: {fileID: 2100000, guid: eaaa449d052a64048a76f9372106e4cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006002hand(1)_0.1_0_0
+    second: {fileID: 2100000, guid: 487850b1d214e0f469c17b987eebfd1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006002hand_0.1_0_0
+    second: {fileID: 2100000, guid: 0af6754a02acdaf4996460a8858afcb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006002inner_0.1_0_0
+    second: {fileID: 2100000, guid: d99ab3cd70179e247b58cf3506e2ba70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006002jacket_0.1_0_0
+    second: {fileID: 2100000, guid: d945911c11a4efc4ab6d36cd66a8d566, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006002metal(1)_0.3_0_0
+    second: {fileID: 2100000, guid: 77fe7b311cf25cb4aa834d45884520e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006002neck_0.1_0_0
+    second: {fileID: 2100000, guid: 405c6661225f3d846a193d346be86cea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006eye(1)_0.3_0_0
+    second: {fileID: 2100000, guid: 138083ce33109b747aea7c37b3afae74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006eye(2)_0.3_0_0.001
+    second: {fileID: 2100000, guid: 6434a2e5434e5ff4aa5597b55f9c363f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006eye(3)_0.3_0_0.001
+    second: {fileID: 2100000, guid: 7079120cfe22aa54aa3d465bc6ff2033, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006eye_0.3_0_0
+    second: {fileID: 2100000, guid: 50ee7b1c8db8d7840b9dbed806cec1a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006eye_1_0.2_0_0
+    second: {fileID: 2100000, guid: 76699ac690cb2f6488a154e7870474fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006faceago1_0.1_0_0
+    second: {fileID: 2100000, guid: b31dde46aedc3e743babf21b657ecaa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006facekubi_0.1_0_0.001
+    second: {fileID: 2100000, guid: 4fdc7f4a6a4a4c1449cf65e3deeb2fbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006faceskin1_0.1_0_0
+    second: {fileID: 2100000, guid: e5bc366ccd77c804da438fbe8c3d0c48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006hair1_0.1_0_0
+    second: {fileID: 2100000, guid: f7504ee8dbcab3f48a5ab5b26992a38f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_006mouth_1_0_0
+    second: {fileID: 2100000, guid: b3cb917395f2acf4c857074f2e9d3cc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_+Boots.006002metal_1_0_0
+    second: {fileID: 2100000, guid: 027ae72273a5b3045b7893b012e0a934, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
