@@ -74,8 +74,13 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
         public void LoadScene(string sceneName)
         {
-            PlayerPrefs.SetInt("PlayerScore", score.score);
-            PlayerPrefs.Save();
+            if(SceneManager.GetActiveScene().buildIndex == 2)
+            {
+                PlayerPrefs.SetInt("PlayerScore", score.score);
+                PlayerPrefs.SetInt("FrostScore", score.JackoLantern);
+                PlayerPrefs.SetInt("LanternScore", score.JackFrostID);
+                PlayerPrefs.Save();
+            } 
             SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
         }
 

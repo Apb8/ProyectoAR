@@ -422,8 +422,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06d9a5037a9f3bd49a26e5fdb433fc2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 5874771273418126053, guid: ca51a11dfe29cfd47b760986f7aedf56,
-    type: 3}
+  enemyPrefabs:
+  - {fileID: 3541929943508781825, guid: f75dea8a6d178fb489964c0befbbaaaf, type: 3}
+  - {fileID: 5874771273418126053, guid: ca51a11dfe29cfd47b760986f7aedf56, type: 3}
   maxEnemies: 5
   spawnRadius: 5
   minSpawnTime: 1
@@ -517,6 +518,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoretext: {fileID: 660236982}
   score: 0
+  JackFrostID: 0
+  JackoLantern: 0
 --- !u!1 &660236980
 GameObject:
   m_ObjectHideFlags: 0
@@ -1264,6 +1267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TitleLabel: {fileID: 0}
   m_BackButton: {fileID: 0}
+  score: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

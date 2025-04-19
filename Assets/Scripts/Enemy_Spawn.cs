@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class SimpleEnemySpawner : MonoBehaviour
 {
-    public GameObject enemyPrefab;
+    public GameObject[] enemyPrefabs;
     public int maxEnemies = 5;
     public float spawnRadius = 5f;
     public float minSpawnTime = 3f;
@@ -14,7 +14,6 @@ public class SimpleEnemySpawner : MonoBehaviour
     public float moveSpeed = 0.5f;
     public float moveRadius = 1f;
 
-    // Agregar referencia al prefab del indicador para pasarlo a los enemigos
     public GameObject indicatorPrefab;
 
     private Camera mainCamera;
@@ -23,6 +22,13 @@ public class SimpleEnemySpawner : MonoBehaviour
     void Start()
     {
         mainCamera = Camera.main;
+
+        if (enemyPrefabs == null || enemyPrefabs.Length == 0)
+        {
+            Debug.LogError("No hay prefabs de enemigos asignados");
+            return;
+        }
+
         StartCoroutine(SpawnEnemiesRoutine());
     }
 
@@ -30,11 +36,10 @@ public class SimpleEnemySpawner : MonoBehaviour
     {
         while (true)
         {
-            // Esperar tiempo aleatorio
+
             float waitTime = Random.Range(minSpawnTime, maxSpawnTime);
             yield return new WaitForSeconds(waitTime);
 
-            // Spawnear si no se ha alcanzado el máximo
             if (currentEnemyCount < maxEnemies)
             {
                 SpawnEnemy();
@@ -44,22 +49,40 @@ public class SimpleEnemySpawner : MonoBehaviour
 
     void SpawnEnemy()
     {
+
+        int randomIndex = Random.Range(0, enemyPrefabs.Length);
+        GameObject selectedPrefab = enemyPrefabs[randomIndex];
+
+        if (selectedPrefab == null)
+        {
+            Debug.LogWarning("El prefab seleccionado es nulo");
+            return;
+        }
+
         Vector3 randomSpherePoint = Random.insideUnitSphere * spawnRadius;
         Vector3 spawnPosition = mainCamera.transform.position + randomSpherePoint;
 
-        GameObject enemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+        GameObject enemy = Instantiate(selectedPrefab, spawnPosition, Quaternion.identity);
         currentEnemyCount++;
 
         enemy.transform.LookAt(mainCamera.transform.position);
 
-        EnemyBehavior behavior = enemy.AddComponent<EnemyBehavior>();
+        EnemyBehavior behavior = enemy.GetComponent<EnemyBehavior>();
+        if (behavior == null)
+        {
+            behavior = enemy.AddComponent<EnemyBehavior>();
+        }
+
         behavior.target = mainCamera.transform;
         behavior.moveSpeed = moveSpeed;
         behavior.attackActiveTime = 0.5f;
         behavior.attackCooldownTime = 1.0f;
 
-        // Añadir y configurar el indicador
-        EnemyIndicator indicator = enemy.AddComponent<EnemyIndicator>();
+        EnemyIndicator indicator = enemy.GetComponent<EnemyIndicator>();
+        if (indicator == null)
+        {
+            indicator = enemy.AddComponent<EnemyIndicator>();
+        }
         indicator.indicatorPrefab = this.indicatorPrefab;
 
         StartCoroutine(DestroyEnemyAfterTime(enemy));

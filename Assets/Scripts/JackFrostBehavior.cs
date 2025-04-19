@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+public class JackFrostBehavior : MonoBehaviour
 {
     [SerializeField] private float destroyDelay = 0.2f;
     [SerializeField] private GameObject destroyEffectPrefab;
@@ -88,6 +88,6 @@ public class EnemyHealth : MonoBehaviour
     private void AddScore()
     {
         scorelogic.score += 100;
-        scorelogic.JackoLantern += 1;
+        scorelogic.JackFrostID += 1;
     }
 }
