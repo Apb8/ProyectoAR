@@ -1,40 +1,56 @@
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
 
 public class HealthController : MonoBehaviour
 {
-    [SerializeField] private int maxHealth = 100;
+    [SerializeField] private int maxHealth = 500;
     [SerializeField] private int currentHealth;
     [SerializeField] private int damageAmount = 10;
 
-    [SerializeField] private Image healthBarImage; 
+    [SerializeField] private Image healthBarImage;
+    public delegate void OnHealthDepleted();
+    public event OnHealthDepleted onHealthDepleted;
 
     private void Start()
     {
         currentHealth = maxHealth;
         UpdateHealthBar();
     }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Persona_Atack"))
         {
-            ReduceHealth(damageAmount);
+            TakeDamage(damageAmount);
         }
     }
-    private void ReduceHealth(int amount)
+
+    public void TakeDamage(int amount)
     {
         currentHealth -= amount;
 
         if (currentHealth <= 0)
         {
             currentHealth = 0;
-            Debug.Log("¡Has perdido toda tu vida!");
+            Debug.Log("perdiste manco");
+
+
+            if (onHealthDepleted != null)
+            {
+                onHealthDepleted();
+            }
         }
 
         UpdateHealthBar();
 
-        Debug.Log("Vida restante: " + currentHealth);
+        Debug.Log("Vida restante " + currentHealth);
     }
+
+    private void ReduceHealth(int amount)
+    {
+        TakeDamage(amount); 
+    }
+
     private void UpdateHealthBar()
     {
         if (healthBarImage != null)
@@ -43,8 +59,14 @@ public class HealthController : MonoBehaviour
             healthBarImage.fillAmount = fillAmount;
         }
     }
+
     public int GetHealth()
     {
         return currentHealth;
+    }
+
+    public bool IsAlive()
+    {
+        return currentHealth > 0;
     }
 }

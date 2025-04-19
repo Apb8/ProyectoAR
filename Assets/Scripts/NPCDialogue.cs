@@ -6,8 +6,11 @@ using UnityEngine.InputSystem;
 
 public class NPCDialogue : MonoBehaviour
 {
-    public Dialogue dialogueData;
+    //public Dialogue dialogueData;
     //private bool playerInRange; //revisar com ho farem
+    public DialogueSequence dialogueSequence;
+    private int currentDialogueIndex = 0;
+
     private Transform playerCamera;
     public float interactionDistance = 5f;
     private PlayerInputActions inputActions;
@@ -21,10 +24,10 @@ public class NPCDialogue : MonoBehaviour
         playerCamera = Camera.main?.transform; //Asigna la AR camera automaticamente - revisar - Revisar lo del interrogant q mho han recomanat
         //inputActions = new PlayerInputActions(); //Ho passo al awake perq s'executi abans
         //inputActions.Player.Interact.performed += ctx => TryStartDialogue();
-        if(dialogueData == null)
-        {
-            Debug.LogError($"[NPCDialogue] {gameObject.name} no tiene dialogue asignado en inspector hombre ya");
-        }
+        //if(dialogueData == null)
+        //{
+        //    Debug.LogError($"[NPCDialogue] {gameObject.name} no tiene dialogue asignado en inspector hombre ya");
+        //}
     }
 
     //private void OnEnable() => inputActions.Enable();
@@ -43,11 +46,11 @@ public class NPCDialogue : MonoBehaviour
 
     private void TryStartDialogue()
     {
-        if(dialogueData == null)
-        {
-            Debug.LogError($"[NPCDialogue] {gameObject.name} intento iniciar un dialogo sin datos"); //debug despres borrem
-            return;
-        }
+        //if(dialogueData == null)
+        //{
+        //    Debug.LogError($"[NPCDialogue] {gameObject.name} intento iniciar un dialogo sin datos"); //debug despres borrem
+        //    return;
+        //}
 
         if(playerCamera == null)
         {
@@ -57,9 +60,13 @@ public class NPCDialogue : MonoBehaviour
 
         if (Vector3.Distance(transform.position, playerCamera.position) < interactionDistance)
         {
-            if(DialogueManager.Instance != null)
+            Dialogue currentDialogue = dialogueSequence.dialogues[currentDialogueIndex];
+
+            if (DialogueManager.Instance != null)
             {
-                DialogueManager.Instance.StartDialogue(dialogueData);
+                DialogueManager.Instance.StartDialogue(currentDialogue);
+                // MARCA que este NPC ha sidop el ultimo q inicio dialogo
+                DialogueManager.Instance.lastNPC = this;
             }
             else
             {
@@ -67,6 +74,13 @@ public class NPCDialogue : MonoBehaviour
             }
         }
     }
+
+    public void AdvanceDialogue()
+    {
+        if (currentDialogueIndex < dialogueSequence.dialogues.Count - 1)
+            currentDialogueIndex++;
+    }
+
     //private void Update()
     //{
     //    //if (playerInRange && Input.GetKeyDown(KeyCode.E))//ja ho canviarem deixo aixo per debug

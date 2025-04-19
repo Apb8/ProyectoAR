@@ -88,6 +88,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 380627733856053049}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 89abc42e54231a245b352eb9d0cf0b0e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2341745595845381678}
   m_SourcePrefab: {fileID: 100100000, guid: 89abc42e54231a245b352eb9d0cf0b0e, type: 3}
 --- !u!1 &5874771273418126053 stripped
 GameObject:
@@ -169,3 +173,24 @@ MonoBehaviour:
   attackDistance: 1.5
   attackActiveTime: 0.5
   attackCooldownTime: 1
+--- !u!95 &2341745595845381678
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5874771273418126053}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 38dc9b3574a72d74d92fa3243f48b629, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

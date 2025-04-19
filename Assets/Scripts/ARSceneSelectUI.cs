@@ -20,6 +20,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
         [SerializeField]
         GameObject m_BackButton;
 
+        public Score_logic score;
         void Awake()
         {
             if (s_SelectedMenuInfo == null)
@@ -35,7 +36,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
                 gameObject.SetActive(false);
             }
-
+            score = FindObjectOfType<Score_logic>();
             SelectMenu(s_SelectedMenu.gameObject);
         }
 
@@ -73,6 +74,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
         public void LoadScene(string sceneName)
         {
+            PlayerPrefs.SetInt("PlayerScore", score.score);
+            PlayerPrefs.Save();
             SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
         }
 

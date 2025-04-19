@@ -19,6 +19,8 @@ public class DialogueManager : MonoBehaviour
     private bool isDialogueActive = false;
     private Dialogue currentDialogue;
 
+    public NPCDialogue lastNPC;
+
     private void Awake()
     {
         if (Instance == null)
@@ -117,5 +119,11 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = ""; //Limpia texto
         characterNameText.text = "";
         characterPortrait.sprite = null;
+
+        if (lastNPC != null)
+        {
+            lastNPC.AdvanceDialogue();
+            lastNPC = null;
+        }
     }
 }
