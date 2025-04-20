@@ -22,3 +22,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: dcde9e3392c58ee448f6754439c96488, type: 2}
     - responseText: "Deber\xEDas pensar en tu salud."
       nextDialogue: {fileID: 11400000, guid: 0384a70ec1cd10c48a327711107b11af, type: 2}
+    animationState: Refuse

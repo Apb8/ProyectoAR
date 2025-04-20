@@ -17,6 +17,7 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "S\xE9 que tienes raz\xF3n, pero\u2026 cambiar es aterrador."
     responses: []
+    animationState: Question
   - characterName: Kawakami
     characterPortrait: {fileID: 0}
     dialogueText: "No quiero que me vean as\xED\u2026 Quiero ser una buena profesora,
@@ -26,3 +27,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 240d9758ef4dc514bbf6f4913d23985c, type: 2}
     - responseText: Tus estudiantes ya ven lo mucho que te esfuerzas.
       nextDialogue: {fileID: 11400000, guid: 2034e362f4bfa92438e012a9c4985a46, type: 2}
+    animationState: Question

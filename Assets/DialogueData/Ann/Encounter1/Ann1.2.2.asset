@@ -18,7 +18,9 @@ MonoBehaviour:
     dialogueText: "Ojal\xE1 fuera tan f\xE1cil. Siempre me ha costado ignorar lo
       que piensan los dem\xE1s\u2026"
     responses: []
+    animationState: Question
   - characterName: Ann
     characterPortrait: {fileID: 0}
     dialogueText: "Pero bueno, suficiente de m\xED. \xA1Hablemos de otra cosa!"
     responses: []
+    animationState: Talking

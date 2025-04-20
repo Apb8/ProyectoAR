@@ -18,8 +18,10 @@ MonoBehaviour:
     dialogueText: "No es molestia\u2026 solo resulta interesante ver qu\xE9 versiones
       de la historia han sobrevivido."
     responses: []
+    animationState: Talking
   - characterName: Akechi
     characterPortrait: {fileID: 0}
     dialogueText: En fin, dejemos los recuerdos para otro momento. Hoy prefiero centrarme
       en lo que tengo delante.
     responses: []
+    animationState: Talking

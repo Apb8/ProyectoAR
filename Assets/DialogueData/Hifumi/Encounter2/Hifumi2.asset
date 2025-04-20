@@ -25,3 +25,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: a3552ad47d1521a4f8df17b598c2f86c, type: 2}
     - responseText: "\xBFTe preocupa algo en particular?"
       nextDialogue: {fileID: 11400000, guid: 5b1a9453373c1c248b665f09a6ef1d0f, type: 2}
+    animationState: Question

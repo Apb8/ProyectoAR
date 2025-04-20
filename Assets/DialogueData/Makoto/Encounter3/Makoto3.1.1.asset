@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogueText: "Puede ser, pero un buen l\xEDder tambi\xE9n deber\xEDa saber delegar,
       \xBFno?"
     responses: []
+    animationState: Question
   - characterName: Makoto
     characterPortrait: {fileID: 0}
     dialogueText: "A veces veo a los dem\xE1s disfrutando y pienso si yo tambi\xE9n
@@ -27,3 +28,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: d841512859b1b5e44aa4283d3601f6ef, type: 2}
     - responseText: "Si te pasas, acabar\xE1s quemada."
       nextDialogue: {fileID: 11400000, guid: 85900a4d302178842a3cfee1fae857ef, type: 2}
+    animationState: Question

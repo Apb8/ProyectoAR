@@ -18,11 +18,13 @@ MonoBehaviour:
     dialogueText: "Me alegra verte. \xDAltimamente he estado pensando en lo que hablamos
       la \xFAltima vez\u2026\r\n"
     responses: []
+    animationState: Talking
   - characterName: Makoto
     characterPortrait: {fileID: 0}
     dialogueText: "A veces siento que todos esperan que haga todo perfecto... pero
       no siempre es f\xE1cil."
     responses: []
+    animationState: Refuse
   - characterName: Makoto
     characterPortrait: {fileID: 0}
     dialogueText: "No importa cu\xE1nto me esfuerce, siempre parece que alguien cree
@@ -34,3 +36,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 5f9a49180a617844eaa4a92ca98f7645, type: 2}
     - responseText: Si necesitas ayuda, dime.
       nextDialogue: {fileID: 11400000, guid: c6312b0cd560a0a408238e11fa128daa, type: 2}
+    animationState: Refuse

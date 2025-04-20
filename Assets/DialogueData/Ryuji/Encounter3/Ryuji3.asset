@@ -22,3 +22,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 253b506ca284ab14595c91a2b8b33f88, type: 2}
     - responseText: "\xBFAlgo que te haya gustado?"
       nextDialogue: {fileID: 11400000, guid: 0aa59fe510289854699be64cc8191200, type: 2}
+    animationState: Happy

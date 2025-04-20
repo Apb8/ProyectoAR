@@ -17,3 +17,4 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Gracias\u2026 Eso significa mucho para m\xED."
     responses: []
+    animationState: Happy

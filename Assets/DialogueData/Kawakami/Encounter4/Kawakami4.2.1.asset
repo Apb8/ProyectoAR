@@ -17,8 +17,10 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "\xA1S\xED! Tal vez por fin empiece a cambiar mi vida."
     responses: []
+    animationState: Happy
   - characterName: Kawakami
     characterPortrait: {fileID: 0}
     dialogueText: "Gracias por todo\u2026 No s\xE9 si habr\xEDa llegado a esta conclusi\xF3n
       sin hablar contigo."
     responses: []
+    animationState: Happy

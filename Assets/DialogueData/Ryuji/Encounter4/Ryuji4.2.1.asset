@@ -18,8 +18,10 @@ MonoBehaviour:
     dialogueText: "\xA1Exacto! Es hora de dejar atr\xE1s el pasado y centrarme en
       lo que viene."
     responses: []
+    animationState: Happy
   - characterName: Ryuji
     characterPortrait: {fileID: 0}
     dialogueText: "Gracias por aguantar mis quejas, de verdad. \xA1Ahora vamos a
       celebrarlo!"
     responses: []
+    animationState: Happy

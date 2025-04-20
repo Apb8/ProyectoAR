@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogueText: "\xA1Ey! Creo que por fin he encontrado algo que me motiva otra
       vez."
     responses: []
+    animationState: Happy
   - characterName: Ryuji
     characterPortrait: {fileID: 0}
     dialogueText: "No es lo mismo que el atletismo, pero\u2026 siento que es algo
@@ -27,3 +28,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 9cbf599ac53c0484c836b610190eca67, type: 2}
     - responseText: Me alegro por ti.
       nextDialogue: {fileID: 11400000, guid: 86803dd0c6d478e4097f7cad51a6ee5c, type: 2}
+    animationState: Talking

@@ -17,7 +17,9 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "S\xED\u2026 Quiero aprender a hacerlo."
     responses: []
+    animationState: Question
   - characterName: Ann
     characterPortrait: {fileID: 0}
     dialogueText: "\xA1Vale, basta de charla! \xBFNos vamos a comer algo?"
     responses: []
+    animationState: Happy

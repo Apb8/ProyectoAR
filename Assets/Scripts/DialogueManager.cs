@@ -63,7 +63,13 @@ public class DialogueManager : MonoBehaviour
         characterPortrait.sprite = line.characterPortrait;
         characterNameText.text = line.characterName;
         dialogueText.text = line.dialogueText;
-        if(line.responses != null && line.responses.Length > 0)
+
+        if (lastNPC != null)
+        {
+            lastNPC.ApplyAnimationState(line.animationState);
+        }
+
+        if (line.responses != null && line.responses.Length > 0)
         {
             ShowResponses(line.responses);
         }
@@ -72,6 +78,7 @@ public class DialogueManager : MonoBehaviour
             nextButton.gameObject.SetActive(true);
             responseContainer.gameObject.SetActive(false);
         }
+
     }
 
     private void ShowResponses(Dialogue.Response[] responses)

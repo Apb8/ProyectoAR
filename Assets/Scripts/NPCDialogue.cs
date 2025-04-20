@@ -15,6 +15,8 @@ public class NPCDialogue : MonoBehaviour
     public float interactionDistance = 5f;
     private PlayerInputActions inputActions;
 
+    public Animator characterAnimator;
+
     private void Awake()
     {
         inputActions = new PlayerInputActions();
@@ -64,9 +66,10 @@ public class NPCDialogue : MonoBehaviour
 
             if (DialogueManager.Instance != null)
             {
+                DialogueManager.Instance.lastNPC = this;
                 DialogueManager.Instance.StartDialogue(currentDialogue);
                 // MARCA que este NPC ha sidop el ultimo q inicio dialogo
-                DialogueManager.Instance.lastNPC = this;
+                //DialogueManager.Instance.lastNPC = this;
             }
             else
             {
@@ -79,6 +82,32 @@ public class NPCDialogue : MonoBehaviour
     {
         if (currentDialogueIndex < dialogueSequence.dialogues.Count - 1)
             currentDialogueIndex++;
+    }
+
+    public void ApplyAnimationState(string state)
+    {
+        var anim = GetComponent<AnimationStateManager>();
+        if (anim == null) return;
+
+        anim.ResetAllStates();
+
+        switch (state?.Trim())
+        {
+            case "Talking":
+                anim.SetTalkingState(true);
+                break;
+            case "Happy":
+                anim.SetHappyState(true);
+                break;
+            case "Refuse":
+                anim.SetRefuseState(true);
+                break;
+            case "Question":
+                anim.SetQuestionState(true);
+                break;
+            default:
+                break; // Idle
+        }
     }
 
     //private void Update()

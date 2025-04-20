@@ -17,8 +17,10 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Supongo\u2026 pero a veces el esfuerzo no es suficiente."
     responses: []
+    animationState: Refuse
   - characterName: Hifumi
     characterPortrait: {fileID: 0}
     dialogueText: "Tal vez deber\xEDa empezar a disfrutar m\xE1s el juego en lugar
       de solo pensar en ganar\u2026"
     responses: []
+    animationState: Question

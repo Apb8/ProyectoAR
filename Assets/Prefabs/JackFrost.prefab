@@ -98,11 +98,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0f0feaf841f93164b897abadf7850d69,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3617324578135364597}
+      addedObject: {fileID: 5581816318669269649}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0f0feaf841f93164b897abadf7850d69,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5581816318669269649}
+      addedObject: {fileID: 6673397776209616491}
   m_SourcePrefab: {fileID: 100100000, guid: 0f0feaf841f93164b897abadf7850d69, type: 3}
 --- !u!1 &3541929943508781825 stripped
 GameObject:
@@ -151,22 +151,6 @@ MonoBehaviour:
   damageAmount: 10
   playerHealthController: {fileID: 0}
   healthControllerTag: Player
---- !u!114 &3617324578135364597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3541929943508781825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bb4ab455d303594c98375a7cc2ea706, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyDelay: 0.2
-  destroyEffectPrefab: {fileID: 0}
-  scoreValue: 100
-  scorelogic: {fileID: 0}
 --- !u!95 &5581816318669269649
 Animator:
   serializedVersion: 5
@@ -188,3 +172,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6673397776209616491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3541929943508781825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3dc6df14c8401a43bbf52b2e68c5622, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyDelay: 0.2
+  destroyEffectPrefab: {fileID: 0}
+  scoreValue: 100
+  scorelogic: {fileID: 0}

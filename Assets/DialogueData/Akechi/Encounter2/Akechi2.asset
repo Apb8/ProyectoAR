@@ -24,3 +24,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 65e2d4a47c2d25c46b696d5089c65e83, type: 2}
     - responseText: "\xBFY t\xFA? \xBFHas cambiado de opini\xF3n?"
       nextDialogue: {fileID: 11400000, guid: 67a78f5df49b01942b79012ee8510d2a, type: 2}
+    animationState: Talking

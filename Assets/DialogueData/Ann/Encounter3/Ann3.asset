@@ -24,3 +24,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 3639868c82173de4e9826394484f34d1, type: 2}
     - responseText: "A\xFAn tienes dudas, \xBFverdad?"
       nextDialogue: {fileID: 11400000, guid: 383b1e3ea64082d418bae1159de96df8, type: 2}
+    animationState: Question

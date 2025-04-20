@@ -17,7 +17,9 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Lo s\xE9\u2026 pero no s\xE9 por d\xF3nde empezar."
     responses: []
+    animationState: Question
   - characterName: Kawakami
     characterPortrait: {fileID: 0}
     dialogueText: "Gracias por escucharme\u2026 No suelo hablar de esto con nadie."
     responses: []
+    animationState: Happy

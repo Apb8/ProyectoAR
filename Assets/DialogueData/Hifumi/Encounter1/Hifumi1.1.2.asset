@@ -17,6 +17,7 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: Entonces aprendes y te preparas para la siguiente partida.
     responses: []
+    animationState: Refuse
   - characterName: Hifumi
     characterPortrait: {fileID: 0}
     dialogueText: "He pasado tanto tiempo perfeccionando mi estrategia\u2026 pero
@@ -26,3 +27,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 50d6d8c4681acec44b6733a134f0ba6c, type: 2}
     - responseText: "Tal vez deber\xEDas relajarte un poco m\xE1s."
       nextDialogue: {fileID: 11400000, guid: aca81e4311d390e4e91dc819e8854fd1, type: 2}
+    animationState: Talking

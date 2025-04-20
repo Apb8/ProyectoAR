@@ -17,6 +17,7 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Eso es\u2026 inesperado. Pero gracias, de verdad."
     responses: []
+    animationState: Happy
   - characterName: Makoto
     characterPortrait: {fileID: 0}
     dialogueText: "Pero si me relajo demasiado, \xBFqu\xE9 tipo de presidenta ser\xEDa?"
@@ -25,3 +26,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: f2114e24c2895a94590eb7b0da7f5b90, type: 2}
     - responseText: Haz lo mejor que puedas y ya.
       nextDialogue: {fileID: 11400000, guid: 49a95308a4ee824468a84bf43308e617, type: 2}
+    animationState: Question

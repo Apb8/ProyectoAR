@@ -18,8 +18,10 @@ MonoBehaviour:
     dialogueText: "Y otras deber\xEDan hacerlo. Pero ya sabemos que el mundo no funciona
       as\xED."
     responses: []
+    animationState: Refuse
   - characterName: Akechi
     characterPortrait: {fileID: 0}
     dialogueText: En fin, dejemos los recuerdos para otro momento. Hoy prefiero centrarme
       en lo que tengo delante.
     responses: []
+    animationState: Talking

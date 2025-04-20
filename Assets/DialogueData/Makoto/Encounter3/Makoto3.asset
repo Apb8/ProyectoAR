@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogueText: "He estado pensando... Tal vez intento hacer todo por mi cuenta
       cuando deber\xEDa confiar m\xE1s en los dem\xE1s."
     responses: []
+    animationState: Question
   - characterName: Makoto
     characterPortrait: {fileID: 0}
     dialogueText: "Pero... es dif\xEDcil.  Siempre siento que si no lo hago yo, nadie
@@ -27,3 +28,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: ae503a3ea4491cd449fcfb4701fb74b4, type: 2}
     - responseText: "Pedir ayuda no est\xE1 mal."
       nextDialogue: {fileID: 11400000, guid: 2c0d4647e0bd9864a938ea7fdf69d03a, type: 2}
+    animationState: Refuse

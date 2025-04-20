@@ -22,3 +22,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 98cf254fe45425f438ae8e65b3081c74, type: 2}
     - responseText: Podemos dar una vuelta.
       nextDialogue: {fileID: 11400000, guid: bbb865ce801c1fc47a5383eb6365ee14, type: 2}
+    animationState: Happy

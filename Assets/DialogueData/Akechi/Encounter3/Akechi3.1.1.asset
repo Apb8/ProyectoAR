@@ -17,6 +17,7 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Quiz\xE1s\u2026 Pero algunas cadenas no se rompen tan f\xE1cilmente."
     responses: []
+    animationState: Question
   - characterName: Akechi
     characterPortrait: {fileID: 0}
     dialogueText: "Me doy cuenta de que sigo repitiendo algunos errores del pasado.
@@ -26,3 +27,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 7b96570b217a2cb4ab32e156374e00ae, type: 2}
     - responseText: Aprender del pasado es lo que importa.
       nextDialogue: {fileID: 11400000, guid: 544863b469898504b8f8eb5463e2ee29, type: 2}
+    animationState: Talking

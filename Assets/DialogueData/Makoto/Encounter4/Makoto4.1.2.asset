@@ -17,6 +17,7 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Har\xE9 mi mejor esfuerzo."
     responses: []
+    animationState: Happy
   - characterName: Makoto
     characterPortrait: {fileID: 0}
     dialogueText: "\xBFT\xFA crees que podr\xEDa aprender a relajarme m\xE1s sin
@@ -26,3 +27,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 3ee405b4b40f9934e801c2cce12bf18f, type: 2}
     - responseText: "Con el tiempo, seguro que lo lograr\xE1s."
       nextDialogue: {fileID: 11400000, guid: bbd0de0bce333f9438e979410020c84e, type: 2}
+    animationState: Question

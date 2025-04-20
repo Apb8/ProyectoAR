@@ -79,6 +79,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 PlayerPrefs.SetInt("PlayerScore", score.score);
                 PlayerPrefs.SetInt("FrostScore", score.JackoLantern);
                 PlayerPrefs.SetInt("LanternScore", score.JackFrostID);
+                PlayerPrefs.SetInt("BlackScore", score.BlackFrostID);
                 PlayerPrefs.Save();
             } 
             SceneManager.LoadScene(sceneName, LoadSceneMode.Single);

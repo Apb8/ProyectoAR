@@ -298,6 +298,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoretext: {fileID: 0}
   score: 0
+  JackFrostID: 0
+  JackoLantern: 0
 --- !u!1 &559594406
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,7 +467,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Mementos
+          m_StringArgument: DialoguesHifumi
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &685036486
@@ -598,7 +600,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Mementos
+          m_StringArgument: DialoguesMakoto
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &790507144
@@ -1442,7 +1444,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Mementos
+          m_StringArgument: DialoguesRyuji
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1381357961
@@ -1708,7 +1710,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Mementos
+          m_StringArgument: DialoguesAnn
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1507624437
@@ -2010,7 +2012,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Mementos
+          m_StringArgument: DialoguesKawakami
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1834517690
@@ -2143,7 +2145,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Mementos
+          m_StringArgument: DialoguesAkechi
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1931209669

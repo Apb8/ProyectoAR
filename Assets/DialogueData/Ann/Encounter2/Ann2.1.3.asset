@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogueText: "No lo s\xE9\u2026 Tal vez por compararme con los dem\xE1s. Veo
       a otras personas y pienso que est\xE1n mucho m\xE1s avanzadas que yo."
     responses: []
+    animationState: Refuse
   - characterName: Ann
     characterPortrait: {fileID: 0}
     dialogueText: "No quiero que mi valor dependa de lo que piensen los dem\xE1s,
@@ -27,3 +28,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 497cae8eab560da48bb26399038f1f27, type: 2}
     - responseText: "T\xF3mate tu tiempo. Nadie es perfecto."
       nextDialogue: {fileID: 11400000, guid: a8cda91e1fa1a3a4c98eda486003d33f, type: 2}
+    animationState: Talking

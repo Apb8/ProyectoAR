@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogueText: "T\xEDo, llevo d\xE1ndole vueltas a algo que dijiste la \xFAltima
       vez\u2026 Tal vez deber\xEDa buscar algo m\xE1s aparte del atletismo."
     responses: []
+    animationState: Talking
   - characterName: Ryuji
     characterPortrait: {fileID: 0}
     dialogueText: "Pero es que no tengo ni idea de por d\xF3nde empezar. Nunca he
@@ -29,3 +30,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 8dd563aab2c21a64f8b93af722d1132e, type: 2}
     - responseText: "\xBFQu\xE9 te llama la atenci\xF3n \xFAltimamente?"
       nextDialogue: {fileID: 11400000, guid: 48ba5c31a5ab4734f886eb0c9d650f0b, type: 2}
+    animationState: Question

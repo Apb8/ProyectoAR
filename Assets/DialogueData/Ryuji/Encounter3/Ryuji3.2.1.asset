@@ -18,7 +18,9 @@ MonoBehaviour:
     dialogueText: "S\xED\u2026 pero no quiero perder el tiempo en algo que no me
       va a servir."
     responses: []
+    animationState: Refuse
   - characterName: Ryuji
     characterPortrait: {fileID: 0}
     dialogueText: "Si me ves haciendo el rid\xEDculo, haz como que no me conoces."
     responses: []
+    animationState: Happy

@@ -17,6 +17,7 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "S\xED\u2026 necesito encontrar mi propio camino."
     responses: []
+    animationState: Happy
   - characterName: Hifumi
     characterPortrait: {fileID: 0}
     dialogueText: "Quiero ser reconocida por mis propios m\xE9ritos\u2026 no solo
@@ -26,3 +27,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 5422c7ceb29cab441a929ce1fa497b5b, type: 2}
     - responseText: "Si necesitas apoyo, aqu\xED estar\xE9."
       nextDialogue: {fileID: 11400000, guid: fa6087ae11ab7964fb0651e0aaaf8c89, type: 2}
+    animationState: Talking

@@ -18,7 +18,9 @@ MonoBehaviour:
     dialogueText: "\xBFDe verdad lo crees? A veces se me olvida que hay m\xE1s en
       m\xED que solo lo que la gente ve en las fotos."
     responses: []
+    animationState: Refuse
   - characterName: Ann
     characterPortrait: {fileID: 0}
     dialogueText: "Pero bueno, suficiente de m\xED. \xA1Hablemos de otra cosa!"
     responses: []
+    animationState: Talking

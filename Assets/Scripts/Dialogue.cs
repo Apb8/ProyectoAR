@@ -15,6 +15,7 @@ public class Dialogue : ScriptableObject
         public Sprite characterPortrait;
         [TextArea(3, 5)] public string dialogueText;
         public Response[] responses;
+        public string animationState;//para las animaciones
     }
     [System.Serializable]
     public struct Response

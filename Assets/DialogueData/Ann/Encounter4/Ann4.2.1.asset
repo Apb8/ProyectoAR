@@ -17,8 +17,10 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: Eres un gran amigo.
     responses: []
+    animationState: Happy
   - characterName: Ann
     characterPortrait: {fileID: 0}
     dialogueText: "Bueno, \xA1vamos a hacer algo divertido para celebrarlo! Esta
       vez, t\xFA eliges."
     responses: []
+    animationState: Happy

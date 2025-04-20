@@ -22,3 +22,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 0c75bf6c5df9ee2498237043bc44bc5b, type: 2}
     - responseText: Lo importante es que sigues avanzando.
       nextDialogue: {fileID: 11400000, guid: f44522ec2d527c849907994ab73e2c97, type: 2}
+    animationState: Talking

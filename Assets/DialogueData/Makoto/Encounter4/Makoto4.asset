@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogueText: "Creo que finalmente entiendo... No se trata de controlar todo,
       sino de tomar decisiones con responsabilidad y confiar en los dem\xE1s."
     responses: []
+    animationState: Happy
   - characterName: Makoto
     characterPortrait: {fileID: 0}
     dialogueText: "S\xE9 que a\xFAn tengo mucho que aprender, pero por primera vez
@@ -27,3 +28,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: b00682b244940d746b83c56b349f75f1, type: 2}
     - responseText: "Seguro que seguir\xE1s mejorando."
       nextDialogue: {fileID: 11400000, guid: 55c811f281d7b724f933c7e8d2674d32, type: 2}
+    animationState: Happy

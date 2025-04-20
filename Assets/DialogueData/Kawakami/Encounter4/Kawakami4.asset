@@ -22,3 +22,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 08f51f29203c8c140b2da1e95188fa58, type: 2}
     - responseText: "\xBFQu\xE9 planeas hacer?"
       nextDialogue: {fileID: 11400000, guid: 8c4dc8b8f308e78418021c23859f74a6, type: 2}
+    animationState: Question

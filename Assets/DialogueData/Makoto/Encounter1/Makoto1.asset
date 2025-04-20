@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogueText: "Ah, ah\xED est\xE1s. Justo a tiempo. \xBFC\xF3mo te ha ido el
       d\xEDa?\r\n"
     responses: []
+    animationState: Talking
   - characterName: Makoto
     characterPortrait: {fileID: 0}
     dialogueText: "\xDAltimamente he estado ocupada con algunos asuntos del consejo,
@@ -27,3 +28,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: f90cbab4033893044b09ea4cd804a9eb, type: 2}
     - responseText: "M\xE1s de lo mismo."
       nextDialogue: {fileID: 11400000, guid: afcfd23d676099a4c8740f73a11f26aa, type: 2}
+    animationState: Talking

@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogueText: Je, no te des tanta importancia. Aunque admito que no me desagrada
       verte.
     responses: []
+    animationState: Happy
   - characterName: Akechi
     characterPortrait: {fileID: 0}
     dialogueText: "\xDAltimamente, parece que el pasado no deja de perseguirme. Como
@@ -27,3 +28,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: c35530967d63498409b3c1222de9bcc9, type: 2}
     - responseText: "\xBFTe molesta que a\xFAn hablen de los Ladrones Fantasma?"
       nextDialogue: {fileID: 11400000, guid: c5ecc6b4147b9a949ba10dae0aaf5c9a, type: 2}
+    animationState: Question

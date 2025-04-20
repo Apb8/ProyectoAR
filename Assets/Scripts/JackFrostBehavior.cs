@@ -8,7 +8,7 @@ public class JackFrostBehavior : MonoBehaviour
     [SerializeField] private GameObject destroyEffectPrefab;
 
     [SerializeField] private int scoreValue = 100;
-
+    private int live = 2;
     private AudioSource deathSound;
     public Score_logic scorelogic;
     private void Start()
@@ -31,8 +31,12 @@ public class JackFrostBehavior : MonoBehaviour
     {
         if (collidedObject.CompareTag("player_atack"))
         {
-
-            StartCoroutine(DestroyEnemy());
+            live--;
+            if(live<=0)
+            {
+                StartCoroutine(DestroyEnemy());
+            }
+           
         }
     }
 
@@ -87,7 +91,7 @@ public class JackFrostBehavior : MonoBehaviour
 
     private void AddScore()
     {
-        scorelogic.score += 100;
+        scorelogic.score += 200;
         scorelogic.JackFrostID += 1;
     }
 }
