@@ -74,7 +74,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
         public void LoadScene(string sceneName)
         {
-            if(SceneManager.GetActiveScene().buildIndex == 2)
+            if(SceneManager.GetActiveScene().buildIndex == 2 && score != null)
             {
                 PlayerPrefs.SetInt("PlayerScore", score.score);
                 PlayerPrefs.SetInt("FrostScore", score.JackoLantern);
