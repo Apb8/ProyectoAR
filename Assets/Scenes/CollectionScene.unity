@@ -645,7 +645,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Jack-o'-Lantern
+  m_text: Jack-O'-Lantern
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67579a52d37434141b890abbf9edd78e, type: 2}
   m_sharedMaterial: {fileID: 6671663960991130638, guid: 67579a52d37434141b890abbf9edd78e,
