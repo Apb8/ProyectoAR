@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogueText: "Bueno\u2026 hay una cosa que me llam\xF3 la atenci\xF3n, pero
       no s\xE9 si ser\xE1 para m\xED."
     responses: []
+    animationState: Question
   - characterName: Ryuji
     characterPortrait: {fileID: 0}
     dialogueText: "Es raro\u2026 Siento que quiero hacer algo, pero a la vez me da
@@ -29,3 +30,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 5669ae2d854fcea428000c1b8858fff4, type: 2}
     - responseText: "Fracasar tambi\xE9n es una forma de aprender."
       nextDialogue: {fileID: 11400000, guid: 3bfe9c36c299b424c8c4a748f083e2a7, type: 2}
+    animationState: Question

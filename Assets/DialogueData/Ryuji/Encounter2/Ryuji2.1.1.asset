@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogueText: "\xBFComo qu\xE9? \xBFPintura? \xBFBallet? No me veo haciendo esas
       cosas."
     responses: []
+    animationState: Refuse
   - characterName: Ryuji
     characterPortrait: {fileID: 0}
     dialogueText: "A veces me da rabia pensar en todo lo que perd\xED con el atletismo\u2026
@@ -27,3 +28,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: cb89820d4568cbc4586ab912d393c814, type: 2}
     - responseText: Tal vez es hora de seguir adelante.
       nextDialogue: {fileID: 11400000, guid: 8c5fe3e69cf4de74380c159b79e13b68, type: 2}
+    animationState: Refuse

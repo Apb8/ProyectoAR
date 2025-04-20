@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogueText: "\xA1Obvio! No s\xE9 c\xF3mo la gente se queda quieta sin hacer
       nada."
     responses: []
+    animationState: Refuse
   - characterName: Ryuji
     characterPortrait: {fileID: 0}
     dialogueText: "Desde que dej\xE9 el equipo de atletismo, siento que tengo demasiada
@@ -27,3 +28,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 009ce00bf8d3a1a4090518b1a55c7744, type: 2}
     - responseText: "\xBFNo has pensado en otra cosa?"
       nextDialogue: {fileID: 11400000, guid: 9a3cf91cc9f24d54ebf1b4423cc69652, type: 2}
+    animationState: Talking

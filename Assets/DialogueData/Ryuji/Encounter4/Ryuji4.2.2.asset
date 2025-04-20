@@ -17,8 +17,10 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "\xA1Tienes raz\xF3n! Nunca es tarde para empezar algo nuevo."
     responses: []
+    animationState: Happy
   - characterName: Ryuji
     characterPortrait: {fileID: 0}
     dialogueText: "Gracias por aguantar mis quejas, de verdad. \xA1Ahora vamos a
       celebrarlo!"
     responses: []
+    animationState: Happy

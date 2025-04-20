@@ -18,7 +18,9 @@ MonoBehaviour:
     dialogueText: "Hm\u2026 Nunca lo hab\xEDa visto as\xED. Quiz\xE1s valga la pena
       intentarlo."
     responses: []
+    animationState: Question
   - characterName: Ryuji
     characterPortrait: {fileID: 0}
     dialogueText: "Si me ves haciendo el rid\xEDculo, haz como que no me conoces."
     responses: []
+    animationState: Happy
