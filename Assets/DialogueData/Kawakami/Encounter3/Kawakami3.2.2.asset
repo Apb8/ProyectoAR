@@ -17,7 +17,9 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Me alegra o\xEDr eso\u2026 Supongo que solo tengo que seguir adelante."
     responses: []
+    animationState: Happy
   - characterName: Kawakami
     characterPortrait: {fileID: 0}
     dialogueText: "Gracias por escucharme\u2026 No suelo hablar de esto con nadie."
     responses: []
+    animationState: Happy

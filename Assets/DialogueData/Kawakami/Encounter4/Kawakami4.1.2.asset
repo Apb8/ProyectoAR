@@ -17,6 +17,7 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "A\xFAn no tengo una respuesta\u2026 pero quiero buscarla."
     responses: []
+    animationState: Question
   - characterName: Kawakami
     characterPortrait: {fileID: 0}
     dialogueText: No quiero seguir viviendo con este agotamiento constante. Me di
@@ -26,3 +27,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 20bf37bb94c90254c93eaf14b0c5d109, type: 2}
     - responseText: "Ser\xE1 dif\xEDcil, pero valdr\xE1 la pena."
       nextDialogue: {fileID: 11400000, guid: 564c5c6508c5edc4c8993860aa769f6f, type: 2}
+    animationState: Question

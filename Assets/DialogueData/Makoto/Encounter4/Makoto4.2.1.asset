@@ -17,7 +17,9 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Quiz\xE1s deba repet\xEDrmelo m\xE1s seguido."
     responses: []
+    animationState: Happy
   - characterName: Makoto
     characterPortrait: {fileID: 0}
     dialogueText: "Lo intentar\xE9. Me has ayudado mucho, de verdad."
     responses: []
+    animationState: Happy

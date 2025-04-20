@@ -17,8 +17,10 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Lo s\xE9\u2026 pero lograrlo no es tan simple."
     responses: []
+    animationState: Question
   - characterName: Makoto
     characterPortrait: {fileID: 0}
     dialogueText: Bueno, al menos ahora puedo relajarme un poco. Me alegra hablar
       contigo.
     responses: []
+    animationState: Happy

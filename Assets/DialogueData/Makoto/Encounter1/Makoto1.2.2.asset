@@ -17,8 +17,10 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Me gustar\xEDa pensarlo as\xED, pero siempre hay algo por hacer."
     responses: []
+    animationState: Refuse
   - characterName: Makoto
     characterPortrait: {fileID: 0}
     dialogueText: Bueno, al menos ahora puedo relajarme un poco. Me alegra hablar
       contigo.
     responses: []
+    animationState: Happy

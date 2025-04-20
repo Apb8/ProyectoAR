@@ -17,7 +17,9 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Me alegra saber que no soy la \xFAnica que lucha con esto."
     responses: []
+    animationState: Happy
   - characterName: Makoto
     characterPortrait: {fileID: 0}
     dialogueText: "Gracias por compartirlo conmigo. Me has dado mucho en qu\xE9 pensar."
     responses: []
+    animationState: Happy

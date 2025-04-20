@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogueText: "Hm\u2026 Supongo que a veces olvido que no siempre tengo que tener
       la respuesta."
     responses: []
+    animationState: Question
   - characterName: Makoto
     characterPortrait: {fileID: 0}
     dialogueText: "\xBFSabes? A veces me pregunto c\xF3mo ser\xEDa todo sin tantas
@@ -27,3 +28,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 5776bdeeb2af24046bc3c0e4dce3befd, type: 2}
     - responseText: Puedes encontrar un punto medio.
       nextDialogue: {fileID: 11400000, guid: b84b12a037aae644f974d1d80299b4d0, type: 2}
+    animationState: Question

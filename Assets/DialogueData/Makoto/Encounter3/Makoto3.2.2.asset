@@ -17,6 +17,7 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "S\xED\u2026 A veces ya siento que estoy al l\xEDmite."
     responses: []
+    animationState: Question
   - characterName: Makoto
     characterPortrait: {fileID: 0}
     dialogueText: "\xBFC\xF3mo lo haces t\xFA? \xBFC\xF3mo equilibras todo?"
@@ -25,3 +26,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: b3325404861365845a0922fd1e25fa5c, type: 2}
     - responseText: "A veces tambi\xE9n me cuesta."
       nextDialogue: {fileID: 11400000, guid: 8e453d36160941948ad5e8fcf06e18ca, type: 2}
+    animationState: Talking

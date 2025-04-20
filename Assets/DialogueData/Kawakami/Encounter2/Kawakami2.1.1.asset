@@ -17,6 +17,7 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Porque necesito el dinero. No tengo opci\xF3n."
     responses: []
+    animationState: Refuse
   - characterName: Kawakami
     characterPortrait: {fileID: 0}
     dialogueText: "No s\xE9 c\xF3mo termin\xE9 en esta situaci\xF3n, pero\u2026 supongo
@@ -26,3 +27,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: ce73ab1f6fde95f478e14d40fad3a050, type: 2}
     - responseText: Tal vez solo necesitas una pausa.
       nextDialogue: {fileID: 11400000, guid: 4bb8a34347274184a878835e38a09fe5, type: 2}
+    animationState: Talking

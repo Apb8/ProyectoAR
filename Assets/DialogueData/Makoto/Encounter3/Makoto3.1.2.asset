@@ -17,6 +17,7 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Lo s\xE9, pero a\xFAn me cuesta aceptarlo."
     responses: []
+    animationState: Happy
   - characterName: Makoto
     characterPortrait: {fileID: 0}
     dialogueText: "A veces veo a los dem\xE1s disfrutando y pienso si yo tambi\xE9n
@@ -26,3 +27,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: d841512859b1b5e44aa4283d3601f6ef, type: 2}
     - responseText: "Si te pasas, acabar\xE1s quemada."
       nextDialogue: {fileID: 11400000, guid: 85900a4d302178842a3cfee1fae857ef, type: 2}
+    animationState: Question

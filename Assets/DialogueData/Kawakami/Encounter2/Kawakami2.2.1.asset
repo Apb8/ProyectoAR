@@ -17,8 +17,10 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Muchas veces\u2026 Pero no es tan sencillo."
     responses: []
+    animationState: Question
   - characterName: Kawakami
     characterPortrait: {fileID: 0}
     dialogueText: "Bah, no deber\xEDa quejarme tanto. Perdona, no quiero aburrirte
       con esto."
     responses: []
+    animationState: Talking

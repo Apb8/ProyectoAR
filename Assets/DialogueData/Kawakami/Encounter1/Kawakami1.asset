@@ -21,3 +21,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 91dc23ec843a5f74eb7a4420e7bed15c, type: 2}
     - responseText: Parece que necesitas un descanso.
       nextDialogue: {fileID: 11400000, guid: 778f898feb9a7fd418769a939a36c400, type: 2}
+    animationState: Refuse

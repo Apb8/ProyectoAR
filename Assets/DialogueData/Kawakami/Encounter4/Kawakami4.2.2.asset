@@ -17,8 +17,10 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Lo s\xE9\u2026 pero esta vez estoy lista para enfrentarlo."
     responses: []
+    animationState: Question
   - characterName: Kawakami
     characterPortrait: {fileID: 0}
     dialogueText: "Gracias por todo\u2026 No s\xE9 si habr\xEDa llegado a esta conclusi\xF3n
       sin hablar contigo."
     responses: []
+    animationState: Happy

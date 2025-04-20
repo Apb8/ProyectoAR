@@ -17,7 +17,9 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Eso suena bien\u2026 Aunque a\xFAn me queda trabajo por hacer."
     responses: []
+    animationState: Happy
   - characterName: Makoto
     characterPortrait: {fileID: 0}
     dialogueText: Gracias por escucharme. Me ha venido bien.
     responses: []
+    animationState: Happy
