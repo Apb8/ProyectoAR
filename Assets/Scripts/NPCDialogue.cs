@@ -110,6 +110,14 @@ public class NPCDialogue : MonoBehaviour
         }
     }
 
+    public void ResetAnimationState()
+    {
+        var anim = GetComponent<AnimationStateManager>();
+        if (anim == null) return;
+
+        anim.ResetAllStates();
+    }
+
     //private void Update()
     //{
     //    //if (playerInRange && Input.GetKeyDown(KeyCode.E))//ja ho canviarem deixo aixo per debug

@@ -20,15 +20,15 @@ public class AnimationStateManager : MonoBehaviour
     }
 
     // Método para el estado Refuse
-    public void SetRefuseState(bool IsRefusing)
+    public void SetRefuseState(bool IsRefuse)
     {
-        SetEmotionState("IsRefusing", IsRefusing);
+        SetEmotionState("IsRefuse", IsRefuse);
     }
 
     // Método para el estado Question
     public void SetQuestionState(bool IsQuestion)
     {
-        SetEmotionState("IsQuestioning", IsQuestion);
+        SetEmotionState("IsQuestion", IsQuestion);
     }
 
     // Método para el estado Happy
@@ -53,16 +53,16 @@ public class AnimationStateManager : MonoBehaviour
     // Reinicia todos los estados emocionales
     private void ResetAllEmotions()
     {
-        animator.SetBool("IsRefusing", false);
-        animator.SetBool("IsQuestioning", false);
+        animator.SetBool("IsRefuse", false);
+        animator.SetBool("IsQuestion", false);
         animator.SetBool("IsHappy", false);
     }
 
     // Comprueba si alguna emoción está activa
     private bool IsAnyEmotionActive()
     {
-        return animator.GetBool("IsRefusing") ||
-               animator.GetBool("IsQuestioning") ||
+        return animator.GetBool("IsRefuse") ||
+               animator.GetBool("IsQuestion") ||
                animator.GetBool("IsHappy");
     }
 

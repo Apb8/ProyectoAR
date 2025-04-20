@@ -21,6 +21,12 @@ public class DialogueManager : MonoBehaviour
 
     public NPCDialogue lastNPC;
 
+    private Queue<string> currentDialogueChunks = new Queue<string>();
+    private const int MaxCharsPerPage = 80;
+
+    private Coroutine typingCoroutine;
+    private bool isTyping = false;
+
     private void Awake()
     {
         if (Instance == null)
@@ -53,6 +59,23 @@ public class DialogueManager : MonoBehaviour
 
     public void ShowNextLine()
     {
+        if (isTyping)
+        {            
+            if (typingCoroutine != null)
+                StopCoroutine(typingCoroutine);
+
+            dialogueText.maxVisibleCharacters = int.MaxValue;
+            isTyping = false;
+            nextButton.gameObject.SetActive(true);
+            return;
+        }
+
+        if (currentDialogueChunks.Count > 0)
+        {
+            StartTyping(currentDialogueChunks.Dequeue());
+            return;
+        }
+
         if (dialogueQueue.Count == 0)
         {
             EndDialogue();
@@ -62,15 +85,28 @@ public class DialogueManager : MonoBehaviour
         var line = dialogueQueue.Dequeue();
         characterPortrait.sprite = line.characterPortrait;
         characterNameText.text = line.characterName;
-        dialogueText.text = line.dialogueText;
+        //dialogueText.text = line.dialogueText;
+
+        //paginado
+        currentDialogueChunks.Clear();
+        var pages = SplitTextIntoPages(line.dialogueText, MaxCharsPerPage);
+        foreach (var page in pages)
+            currentDialogueChunks.Enqueue(page);
 
         if (lastNPC != null)
         {
-            lastNPC.ApplyAnimationState(line.animationState);
+            if (!string.IsNullOrEmpty(line.animationState))
+                lastNPC.ApplyAnimationState(line.animationState);
+            else
+                lastNPC.ResetAnimationState(); //para asegurarme q vuelve a idle
         }
+
+        //primera pag con typeefect
+        StartTyping(currentDialogueChunks.Dequeue());
 
         if (line.responses != null && line.responses.Length > 0)
         {
+            //nextButton.gameObject.SetActive(false);?fafalta?
             ShowResponses(line.responses);
         }
         else
@@ -133,4 +169,56 @@ public class DialogueManager : MonoBehaviour
             lastNPC = null;
         }
     }
+
+    private List<string> SplitTextIntoPages(string fullText, int maxChars)
+    {
+        List<string> pages = new List<string>();
+        string[] words = fullText.Split(' ');
+
+        string current = "";
+
+        foreach (string word in words)
+        {
+            if ((current + word).Length + 1 > maxChars)
+            {
+                pages.Add(current.TrimEnd());
+                current = "";
+            }
+            current += word + " ";
+        }
+
+        if (!string.IsNullOrWhiteSpace(current))
+            pages.Add(current.TrimEnd());
+
+        return pages;
+    }
+
+    private void StartTyping(string text)
+    {
+        if (typingCoroutine != null)
+            StopCoroutine(typingCoroutine);
+
+        typingCoroutine = StartCoroutine(TypeText(text));
+    }
+
+    private IEnumerator TypeText(string text)
+    {
+        isTyping = true;
+        dialogueText.text = text;
+        dialogueText.maxVisibleCharacters = 0;
+
+        yield return null;
+
+        int totalChars = text.Length;
+
+        for (int i = 0; i <= totalChars; i++)
+        {
+            dialogueText.maxVisibleCharacters = i;
+            yield return new WaitForSeconds(0.02f); //velocidad
+        }
+
+        isTyping = false;
+        nextButton.gameObject.SetActive(true);
+    }
+
 }
