@@ -22,3 +22,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 458d636a621a96b4bb13d7271fcf1976, type: 2}
     - responseText: "\xBFY qu\xE9 pasa si tomas una mala decisi\xF3n?"
       nextDialogue: {fileID: 11400000, guid: b242e75a9635d554182237e236f9af54, type: 2}
+    animationState: Talking
