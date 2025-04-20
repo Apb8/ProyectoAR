@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogueText: "A veces no lo s\xE9\u2026 Me apasiona el sh\u014Dgi, pero\u2026
       \xBFlo hago por m\xED o por ellos?"
     responses: []
+    animationState: Question
   - characterName: Hifumi
     characterPortrait: {fileID: 0}
     dialogueText: "Quiero ser reconocida por mis propios m\xE9ritos\u2026 no solo
@@ -27,3 +28,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 5422c7ceb29cab441a929ce1fa497b5b, type: 2}
     - responseText: "Si necesitas apoyo, aqu\xED estar\xE9."
       nextDialogue: {fileID: 11400000, guid: fa6087ae11ab7964fb0651e0aaaf8c89, type: 2}
+    animationState: Talking

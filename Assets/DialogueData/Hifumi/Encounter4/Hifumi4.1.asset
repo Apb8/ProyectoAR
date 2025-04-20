@@ -17,8 +17,10 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Gracias\u2026 Siento que he dado un gran paso."
     responses: []
+    animationState: Happy
   - characterName: Hifumi
     characterPortrait: {fileID: 0}
     dialogueText: "Gracias por escucharme. Sent\xEDa que estaba atrapada, pero ahora\u2026
       veo un camino claro por delante."
     responses: []
+    animationState: Happy

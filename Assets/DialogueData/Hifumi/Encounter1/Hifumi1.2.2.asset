@@ -17,8 +17,10 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Supongo que a veces me obsesiono demasiado\u2026"
     responses: []
+    animationState: Question
   - characterName: Hifumi
     characterPortrait: {fileID: 0}
     dialogueText: "\xBFJugar\xEDas una partida conmigo? Ser\xEDa interesante ver
       c\xF3mo piensas."
     responses: []
+    animationState: Happy

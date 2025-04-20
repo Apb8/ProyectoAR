@@ -24,3 +24,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: dad9ee9dcfa6fdc43a985659c966c2b2, type: 2}
     - responseText: "Deber\xEDas decidirlo t\xFA misma."
       nextDialogue: {fileID: 11400000, guid: 31d4c9f665d595046a756e38ed6d97e6, type: 2}
+    animationState: Talking

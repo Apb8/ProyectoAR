@@ -17,7 +17,7 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Lo es, pero ah\xED est\xE1 la belleza del desaf\xEDo."
     responses: []
-    animationState: 
+    animationState: Happy
   - characterName: Hifumi
     characterPortrait: {fileID: 0}
     dialogueText: "He pasado tanto tiempo perfeccionando mi estrategia\u2026 pero

@@ -22,3 +22,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 7a2eb43e96aab434880950dbebd1a391, type: 2}
     - responseText: "\xBFC\xF3mo crees que reaccionar\xE1n?"
       nextDialogue: {fileID: 11400000, guid: d5841274429fdd84fa470cc5a4656688, type: 2}
+    animationState: Happy

@@ -17,6 +17,7 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Bueno\u2026 hay muchas expectativas sobre m\xED, y temo decepcionar\u2026"
     responses: []
+    animationState: Question
   - characterName: Hifumi
     characterPortrait: {fileID: 0}
     dialogueText: "Cuando pierdo una partida, siento que todo mi esfuerzo ha sido
@@ -26,3 +27,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: ff753984fad449749bf93dd9d2a0a0d4, type: 2}
     - responseText: "Si te esfuerzas tanto, no deber\xEDas preocuparte."
       nextDialogue: {fileID: 11400000, guid: 5eda6ff115230f940aedde31c925e444, type: 2}
+    animationState: Refuse

@@ -17,3 +17,4 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "S\xED\u2026 eso har\xE9."
     responses: []
+    animationState: Happy

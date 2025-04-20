@@ -17,8 +17,10 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: Exacto. La clave es no rendirse.
     responses: []
+    animationState: Happy
   - characterName: Hifumi
     characterPortrait: {fileID: 0}
     dialogueText: "\xBFJugar\xEDas una partida conmigo? Ser\xEDa interesante ver
       c\xF3mo piensas."
     responses: []
+    animationState: Happy

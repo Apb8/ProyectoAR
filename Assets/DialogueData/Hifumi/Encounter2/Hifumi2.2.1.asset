@@ -18,8 +18,10 @@ MonoBehaviour:
     dialogueText: "Tienes raz\xF3n\u2026 no deber\xEDa temer perder, sino aprender
       de ello."
     responses: []
+    animationState: Happy
   - characterName: Hifumi
     characterPortrait: {fileID: 0}
     dialogueText: "Tal vez deber\xEDa empezar a disfrutar m\xE1s el juego en lugar
       de solo pensar en ganar\u2026"
     responses: []
+    animationState: Question
