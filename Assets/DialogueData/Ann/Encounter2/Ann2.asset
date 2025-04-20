@@ -25,3 +25,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 34badb443d0bedb42b2c033c59a5094c, type: 2}
     - responseText: "\xBFPor qu\xE9 piensas as\xED?"
       nextDialogue: {fileID: 11400000, guid: 9ae522287d5b8384ebc25a37f6833eb2, type: 2}
+    animationState: Question

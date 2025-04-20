@@ -23,3 +23,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 0786819e08ddabf42bbf07004df8f070, type: 2}
     - responseText: "\xBFSigues sinti\xE9ndote atrapado?"
       nextDialogue: {fileID: 11400000, guid: e8bc5e8d1ac52514a9a6203f03b6e608, type: 2}
+    animationState: Question

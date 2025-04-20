@@ -24,3 +24,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 6ec1f9ca225bb284d9f1e24129cb703d, type: 2}
     - responseText: "\xBFY ahora qu\xE9?"
       nextDialogue: {fileID: 11400000, guid: d76f4ab7cb8cced4baf8bbaa13e488dc, type: 2}
+    animationState: Happy

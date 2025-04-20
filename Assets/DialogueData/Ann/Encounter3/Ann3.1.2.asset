@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogueText: "\xA1Voy a hacer lo que realmente quiero sin miedo! Bueno\u2026
       con menos miedo, al menos."
     responses: []
+    animationState: Happy
   - characterName: Ann
     characterPortrait: {fileID: 0}
     dialogueText: Tal vez nunca deje de sentirme insegura del todo, pero quiero aprender
@@ -27,3 +28,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: f5ab47ddf757ed443be1bd3ab7ba6977, type: 2}
     - responseText: Nadie es totalmente seguro todo el tiempo.
       nextDialogue: {fileID: 11400000, guid: 98741586d44e77048985c5f3742de4e3, type: 2}
+    animationState: Question

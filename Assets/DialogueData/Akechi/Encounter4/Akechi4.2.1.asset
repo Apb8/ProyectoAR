@@ -17,12 +17,15 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Exacto. Y a veces, ni siquiera sabes qu\xE9 es correcto."
     responses: []
+    animationState: Refuse
   - characterName: Akechi
     characterPortrait: {fileID: 0}
     dialogueText: "No suelo decir estas cosas, pero\u2026 me alegra que sigas aqu\xED."
     responses: []
+    animationState: Happy
   - characterName: Akechi
     characterPortrait: {fileID: 0}
     dialogueText: "Y ahora, basta de sentimentalismos. Vamos a buscar algo m\xE1s
       interesante que hacer."
     responses: []
+    animationState: Talking

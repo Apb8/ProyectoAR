@@ -17,6 +17,7 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Supongo que s\xED. Aunque a veces me pregunto hacia d\xF3nde."
     responses: []
+    animationState: Happy
   - characterName: Akechi
     characterPortrait: {fileID: 0}
     dialogueText: "Es curioso\u2026 Pensaba que una vez libre, todo ser\xEDa m\xE1s
@@ -26,3 +27,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 238ba6c51531e284f8aab83bb28f03a9, type: 2}
     - responseText: Al menos ahora decides por ti mismo.
       nextDialogue: {fileID: 11400000, guid: 689eba7482ba01742aea917dcb60d37b, type: 2}
+    animationState: Question

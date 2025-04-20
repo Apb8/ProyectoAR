@@ -17,7 +17,7 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Ah, justo a quien quer\xEDa ver. Necesito distraerme un poco."
     responses: []
-    animationTrigger: 
+    animationState: Talking
   - characterName: Ann
     characterPortrait: {fileID: 0}
     dialogueText: "\xDAltimamente siento que mi cabeza no para y solo quiero relajarme
@@ -29,4 +29,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: e1b69801c07427b4b81c122d70211dc0, type: 2}
     - responseText: "Distraerte, \xBFc\xF3mo?"
       nextDialogue: {fileID: 11400000, guid: 7d07e45ecf8c1d949bec19d081be7273, type: 2}
-    animationTrigger: 
+    animationState: Refuse

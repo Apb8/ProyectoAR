@@ -17,8 +17,10 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "S\xED\u2026 Me ayuda saberlo."
     responses: []
+    animationState: Question
   - characterName: Ann
     characterPortrait: {fileID: 0}
     dialogueText: "\xBFTe apetece un helado para celebrarlo? \xA1Yo invito! No hay
       mejor manera de reforzar una decisi\xF3n que con algo dulce."
     responses: []
+    animationState: Happy

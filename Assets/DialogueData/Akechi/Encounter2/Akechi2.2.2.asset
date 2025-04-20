@@ -17,8 +17,10 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Hm\u2026 Suena bien. Ojal\xE1 la vida fuera tan sencilla."
     responses: []
+    animationState: Question
   - characterName: Akechi
     characterPortrait: {fileID: 0}
     dialogueText: "Bueno, basta de tanta charla profunda. \xBFTe apetece una partida
       de ajedrez? Hace tiempo que no te gano\u2026 o eso creo."
     responses: []
+    animationState: Happy

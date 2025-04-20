@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogueText: "\xA1Hagamos algo divertido! \xBFCine? \xBFCaf\xE9? \xA1Lo que
       sea! Necesito desconectar."
     responses: []
+    animationState: Happy
   - characterName: Ann
     characterPortrait: {fileID: 0}
     dialogueText: "\xDAltimamente siento que todos esperan demasiado de m\xED. Es
@@ -27,3 +28,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 4ef51600337b2b545973d4829b4e49f5, type: 2}
     - responseText: No tienes que demostrarle nada a nadie.
       nextDialogue: {fileID: 11400000, guid: 6baef5e1a2ced544f9d8b452ffd7fdc3, type: 2}
+    animationState: Question

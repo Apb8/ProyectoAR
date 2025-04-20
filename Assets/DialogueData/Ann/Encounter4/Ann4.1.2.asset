@@ -17,6 +17,7 @@ MonoBehaviour:
     characterPortrait: {fileID: 0}
     dialogueText: "Eso\u2026 es muy bonito de tu parte."
     responses: []
+    animationState: Talking
   - characterName: Ann
     characterPortrait: {fileID: 0}
     dialogueText: "Gracias por escucharme todo este tiempo. De verdad, no s\xE9 qu\xE9
@@ -26,3 +27,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: aab50e1e0d181fb4283db5b5400ad6fb, type: 2}
     - responseText: "Ahora sal ah\xED y brilla."
       nextDialogue: {fileID: 11400000, guid: 824d99aad3929234b889b59b4bc89b1f, type: 2}
+    animationState: Happy

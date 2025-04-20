@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogueText: "Exacto. Blanco y negro son solo una ilusi\xF3n\u2026 el mundo
       se mueve en infinitos tonos de gris."
     responses: []
+    animationState: Question
   - characterName: Akechi
     characterPortrait: {fileID: 0}
     dialogueText: "Hay d\xEDas en los que me pregunto qu\xE9 habr\xEDa pasado si
@@ -27,3 +28,4 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 7fdb6bb9dab55134a9d6b4ec6ba06379, type: 2}
     - responseText: Siempre se puede empezar de nuevo.
       nextDialogue: {fileID: 11400000, guid: 65226b0cdf90d1f45bcc39396e143dda, type: 2}
+    animationState: Question

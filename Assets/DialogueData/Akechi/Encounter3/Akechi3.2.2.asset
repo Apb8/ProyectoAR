@@ -18,8 +18,10 @@ MonoBehaviour:
     dialogueText: "He aprendido demasiado\u2026 aunque eso no significa que siempre
       sepa qu\xE9 hacer con ello."
     responses: []
+    animationState: Question
   - characterName: Akechi
     characterPortrait: {fileID: 0}
     dialogueText: "Supongo que, mientras el mundo siga esperando algo de m\xED, lo
       m\xEDnimo que puedo hacer es interpretar bien mi papel."
     responses: []
+    animationState: Refuse
