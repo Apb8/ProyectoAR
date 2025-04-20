@@ -3,8 +3,10 @@ using UnityEngine.UI;
 
 public class PrefabSwitcher : MonoBehaviour
 {
-    public GameObject[] prefabs; 
-    public Text displayText; 
+    public GameObject[] prefabs;
+    public Text displayText;
+    public RectTransform imageToMove; 
+    public Vector2[] imagePositions; 
 
     private GameObject currentInstance;
     private int currentIndex = 0;
@@ -14,6 +16,12 @@ public class PrefabSwitcher : MonoBehaviour
         if (prefabs == null || prefabs.Length == 0)
         {
             Debug.LogError("No hay prefabs asignados en el inspector!");
+            return;
+        }
+
+        if (imagePositions == null || imagePositions.Length != prefabs.Length)
+        {
+            Debug.LogError("Las posiciones de imagen no coinciden con la cantidad de prefabs!");
             return;
         }
 
@@ -55,6 +63,11 @@ public class PrefabSwitcher : MonoBehaviour
         if (displayText != null)
         {
             displayText.text = "Prefab actual: " + prefabs[index].name;
+        }
+
+        if (imageToMove != null)
+        {
+            imageToMove.anchoredPosition = imagePositions[index];
         }
     }
 
