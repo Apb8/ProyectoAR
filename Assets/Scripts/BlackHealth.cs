@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JackFrostBehavior : MonoBehaviour
+public class BlackHealth : MonoBehaviour
 {
     [SerializeField] private float destroyDelay = 0.2f;
     [SerializeField] private GameObject destroyEffectPrefab;
 
     [SerializeField] private int scoreValue = 100;
-    private int live = 2;
+
     private AudioSource deathSound;
     public Score_logic scorelogic;
     private void Start()
@@ -31,12 +31,8 @@ public class JackFrostBehavior : MonoBehaviour
     {
         if (collidedObject.CompareTag("player_atack"))
         {
-            live--;
-            if(live<=0)
-            {
-                StartCoroutine(DestroyEnemy());
-            }
-           
+
+            StartCoroutine(DestroyEnemy());
         }
     }
 
@@ -91,7 +87,7 @@ public class JackFrostBehavior : MonoBehaviour
 
     private void AddScore()
     {
-        scorelogic.score += 200;
-        scorelogic.JackFrostID += 1;
+        scorelogic.score += 100;
+        scorelogic.JackoLantern += 1;
     }
 }

@@ -213,11 +213,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2512387470528047719, guid: 48cb3fb68c91eb94999fd99957eb0cae,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 576196318}
+      addedObject: {fileID: 576196319}
     - targetCorrespondingSourceObject: {fileID: 2512387470528047719, guid: 48cb3fb68c91eb94999fd99957eb0cae,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 576196319}
+      addedObject: {fileID: 576196325}
   m_SourcePrefab: {fileID: 100100000, guid: 48cb3fb68c91eb94999fd99957eb0cae, type: 3}
 --- !u!1 &436358032
 GameObject:
@@ -425,6 +425,7 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 3541929943508781825, guid: f75dea8a6d178fb489964c0befbbaaaf, type: 3}
   - {fileID: 5874771273418126053, guid: ca51a11dfe29cfd47b760986f7aedf56, type: 3}
+  - {fileID: 3610940917514090323, guid: 866312c89c52ecc45a7c832721b9f96e, type: 3}
   maxEnemies: 5
   spawnRadius: 5
   minSpawnTime: 1
@@ -489,21 +490,6 @@ MonoBehaviour:
   cameraTransform: {fileID: 0}
   maxDistance: 10
   arSessionOrigin: {fileID: 0}
---- !u!114 &576196318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 576196298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ca632cafb31e984cba0e2afcc8e11d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  indicatorPrefab: {fileID: 2225001955139885448, guid: e60aa4bb25c2c0440af70170acc8471e,
-    type: 3}
-  indicatorOffset: 50
 --- !u!114 &576196319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -520,6 +506,21 @@ MonoBehaviour:
   score: 0
   JackFrostID: 0
   JackoLantern: 0
+  BlackFrostID: 0
+--- !u!114 &576196325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576196298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ca632cafb31e984cba0e2afcc8e11d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  indicatorPrefab: {fileID: 0}
+  indicatorOffset: 50
 --- !u!1 &660236980
 GameObject:
   m_ObjectHideFlags: 0

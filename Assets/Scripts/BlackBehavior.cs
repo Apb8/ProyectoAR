@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JackFrostBehavior : MonoBehaviour
+public class BlackFrostBehavior : MonoBehaviour
 {
     [SerializeField] private float destroyDelay = 0.2f;
     [SerializeField] private GameObject destroyEffectPrefab;
 
     [SerializeField] private int scoreValue = 100;
-    private int live = 2;
+    private int live = 3;
     private AudioSource deathSound;
     public Score_logic scorelogic;
     private void Start()
@@ -36,7 +36,6 @@ public class JackFrostBehavior : MonoBehaviour
             {
                 StartCoroutine(DestroyEnemy());
             }
-           
         }
     }
 
@@ -91,7 +90,7 @@ public class JackFrostBehavior : MonoBehaviour
 
     private void AddScore()
     {
-        scorelogic.score += 200;
-        scorelogic.JackFrostID += 1;
+        scorelogic.score += 300;
+        scorelogic.BlackFrostID += 1;
     }
 }
