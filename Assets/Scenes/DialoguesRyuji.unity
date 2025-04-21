@@ -1054,7 +1054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSequence: {fileID: 11400000, guid: 632f783bcb463424594250bc48039bdc, type: 2}
   interactionDistance: 5
-  characterAnimator: {fileID: 0}
+  characterAnimator: {fileID: 999622315}
 --- !u!4 &999622313 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9106046901369566655, guid: 36b7a936701be774dbb62f5ef2fccd68,

@@ -117,35 +117,4 @@ public class NPCDialogue : MonoBehaviour
 
         anim.ResetAllStates();
     }
-
-    //private void Update()
-    //{
-    //    //if (playerInRange && Input.GetKeyDown(KeyCode.E))//ja ho canviarem deixo aixo per debug
-    //    //{
-    //    //    DialogueManager.Instance.StartDialogue(dialogueData);
-    //    //}
-    //    if (Vector3.Distance(transform.position, playerCamera.position) < interactionDistance)
-    //    {
-    //        if (Input.GetKeyDown(KeyCode.E))//para debug en pc, luego se cambia
-    //        {
-    //            DialogueManager.Instance.StartDialogue(dialogueData);
-    //        }
-    //    }
-    //}
-
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.CompareTag("Player"))
-    //    {
-    //        playerInRange = true;
-    //    }
-    //}
-
-    //private void OnTriggerExit(Collider other)
-    //{
-    //    if (other.CompareTag("Player"))
-    //    {
-    //        playerInRange = false;
-    //    }
-    //}
 }
