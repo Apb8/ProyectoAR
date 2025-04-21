@@ -1874,7 +1874,7 @@ GameObject:
   - component: {fileID: 1515168003}
   - component: {fileID: 1515168002}
   m_Layer: 0
-  m_Name: MapIconOgikuro
+  m_Name: MapIconOgikubo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2177,7 +2177,7 @@ GameObject:
   - component: {fileID: 1931209669}
   - component: {fileID: 1931209668}
   m_Layer: 5
-  m_Name: OgikuroIcon
+  m_Name: OgikuboIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2800,8 +2800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29217c432ecc5b144b62bde7c7acb538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TitleLabel: {fileID: 0}
-  m_BackButton: {fileID: 0}
   score: {fileID: 0}
 --- !u!1 &2126276712
 GameObject:
