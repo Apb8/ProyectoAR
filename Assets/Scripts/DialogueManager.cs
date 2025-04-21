@@ -27,6 +27,8 @@ public class DialogueManager : MonoBehaviour
     private Coroutine typingCoroutine;
     private bool isTyping = false;
 
+    public GameObject continueIcon;
+
     private void Awake()
     {
         if (Instance == null)
@@ -195,6 +197,9 @@ public class DialogueManager : MonoBehaviour
 
     private void StartTyping(string text)
     {
+        if (continueIcon != null)
+            continueIcon.SetActive(false);//test
+
         if (typingCoroutine != null)
             StopCoroutine(typingCoroutine);
 
@@ -219,6 +224,9 @@ public class DialogueManager : MonoBehaviour
 
         isTyping = false;
         nextButton.gameObject.SetActive(true);
+
+        if (continueIcon != null)
+            continueIcon.SetActive(true);//test
     }
 
 }
