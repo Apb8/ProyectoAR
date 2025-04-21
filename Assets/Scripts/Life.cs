@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class HealthController : MonoBehaviour
 {
     [SerializeField] private int maxHealth = 500;
@@ -10,10 +10,11 @@ public class HealthController : MonoBehaviour
     [SerializeField] private Image healthBarImage;
     public delegate void OnHealthDepleted();
     public event OnHealthDepleted onHealthDepleted;
-
+    public Score_logic score;
     private void Start()
     {
         currentHealth = maxHealth;
+        score = FindObjectOfType<Score_logic>();
         UpdateHealthBar();
     }
 
@@ -31,9 +32,7 @@ public class HealthController : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            currentHealth = 0;
-            Debug.Log("perdiste manco");
-
+            Die();
 
             if (onHealthDepleted != null)
             {
@@ -60,6 +59,15 @@ public class HealthController : MonoBehaviour
         }
     }
 
+    private void Die()
+    {
+        score.score = 0;
+        score.JackFrostID = 0;
+        score.JackoLantern = 0;
+        score.BlackFrostID = 0;
+        SceneManager.LoadScene(0);
+
+    }
     public int GetHealth()
     {
         return currentHealth;
