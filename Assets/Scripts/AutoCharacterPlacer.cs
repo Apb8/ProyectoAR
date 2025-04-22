@@ -14,7 +14,7 @@ public class AutoCharacterPlacer : MonoBehaviour
 
     void Awake()
     {
-        raycastManager = GetComponent<ARRaycastManager>();
+        raycastManager = FindObjectOfType<ARRaycastManager>();
     }
 
     void Update()
