@@ -65,7 +65,7 @@ public class HealthController : MonoBehaviour
         score.JackFrostID = 0;
         score.JackoLantern = 0;
         score.BlackFrostID = 0;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
 
     }
     public int GetHealth()
