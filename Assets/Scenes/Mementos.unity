@@ -429,9 +429,9 @@ MonoBehaviour:
   maxEnemies: 5
   spawnRadius: 5
   minSpawnTime: 1
-  maxSpawnTime: 1
+  maxSpawnTime: 3
   enemyLifeTime: 15
-  moveSpeed: 0.5
+  moveSpeed: 0.25
   moveRadius: 1
   indicatorPrefab: {fileID: 2225001955139885448, guid: e60aa4bb25c2c0440af70170acc8471e,
     type: 3}
@@ -451,6 +451,7 @@ MonoBehaviour:
   currentHealth: 0
   damageAmount: 10
   healthBarImage: {fileID: 1525256483}
+  score: {fileID: 0}
 --- !u!65 &576196310
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1316,8 +1317,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29217c432ecc5b144b62bde7c7acb538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TitleLabel: {fileID: 0}
-  m_BackButton: {fileID: 0}
   score: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
