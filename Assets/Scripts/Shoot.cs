@@ -46,7 +46,8 @@ public class Shoot : MonoBehaviour
         }
 
         Vector3 spawnPosition = cameraTransform.position;
-        GameObject newBall = Instantiate(ballPrefab, spawnPosition, Quaternion.identity);
+        Quaternion rotation = Quaternion.Euler(15, 40, 90);
+        GameObject newBall = Instantiate(ballPrefab, spawnPosition, rotation);
 
 
         Rigidbody ballRigidbody = newBall.GetComponent<Rigidbody>();

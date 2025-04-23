@@ -52,7 +52,7 @@ public class EnemyBehavior : MonoBehaviour
         }
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (target == null || attackCollider == null) return;
 
