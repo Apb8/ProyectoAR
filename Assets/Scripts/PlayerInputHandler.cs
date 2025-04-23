@@ -24,7 +24,6 @@ public class PlayerInputHandler : MonoBehaviour
     private void Interact()
     {
         Debug.Log("¡Interactuar!");
-        // Aquí puedes llamar al DialogueManager para iniciar un diálogo
     }
 }
 

@@ -50,7 +50,7 @@ public class NPCDialogue : MonoBehaviour
     {
         //if(dialogueData == null)
         //{
-        //    Debug.LogError($"[NPCDialogue] {gameObject.name} intento iniciar un dialogo sin datos"); //debug despres borrem
+        //    Debug.LogError($"[NPCDialogue] {gameObject.name} intenta iniciar un dialogo sin datos"); //debug despres borrem
         //    return;
         //}
 
