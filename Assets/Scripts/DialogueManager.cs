@@ -31,6 +31,8 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject continueIcon;
 
+    private bool awaitingNextSequence = false;//testing to fix movile bug
+
     private void Awake()
     {
         if (Instance == null)
@@ -150,10 +152,12 @@ public class DialogueManager : MonoBehaviour
 
         if (response.nextDialogue != null)
         {
+            awaitingNextSequence = false; //test debug to fix build bug
             StartDialogue(response.nextDialogue);
         }
         else
         {
+            awaitingNextSequence = true; //test debug to fix build bug
             ShowNextLine();
         }
     }
@@ -169,9 +173,14 @@ public class DialogueManager : MonoBehaviour
 
         if (lastNPC != null)
         {
-            lastNPC.AdvanceDialogue();
+            if (awaitingNextSequence)//debug test, si segueix igual treure condition
+            {
+                lastNPC.AdvanceDialogue();
+            }
+            
             lastNPC = null;
         }
+        awaitingNextSequence = false; //debug test
     }
 
     private List<string> SplitTextIntoPages(string fullText, int maxChars)
