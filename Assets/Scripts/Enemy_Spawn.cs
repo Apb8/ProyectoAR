@@ -22,7 +22,7 @@ public class SimpleEnemySpawner : MonoBehaviour
     void Start()
     {
         mainCamera = Camera.main;
-
+        Application.targetFrameRate = 60;
         if (enemyPrefabs == null || enemyPrefabs.Length == 0)
         {
             Debug.LogError("No hay prefabs de enemigos asignados");

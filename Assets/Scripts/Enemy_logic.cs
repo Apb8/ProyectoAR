@@ -84,7 +84,6 @@ public class EnemyBehavior : MonoBehaviour
             {
                 isNearTarget = false;
                 isAttackActive = false;
-                attackCollider.enabled = false;
             }
         }
     }
@@ -96,8 +95,7 @@ public class EnemyBehavior : MonoBehaviour
         if (isAttackActive)
         {
             if (attackTimer >= attackActiveTime)
-            {
-                attackCollider.enabled = false;
+            {  
                 isAttackActive = false;
                 attackTimer = 0f;
             }
@@ -106,7 +104,6 @@ public class EnemyBehavior : MonoBehaviour
         {
             if (attackTimer >= attackCooldownTime)
             {
-                attackCollider.enabled = true;
                 isAttackActive = true;
                 attackTimer = 0f;
                 animator.SetTrigger("Attack");

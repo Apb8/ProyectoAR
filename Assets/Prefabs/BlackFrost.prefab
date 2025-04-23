@@ -89,15 +89,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ffc52da2e3ee55e498798f4f2a436210,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5629519269449703639}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ffc52da2e3ee55e498798f4f2a436210,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 4474386028875134070}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ffc52da2e3ee55e498798f4f2a436210,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 805533875919444528}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ffc52da2e3ee55e498798f4f2a436210,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1667264346204431166}
   m_SourcePrefab: {fileID: 100100000, guid: ffc52da2e3ee55e498798f4f2a436210, type: 3}
 --- !u!1 &3610940917514090323 stripped
 GameObject:
@@ -126,22 +126,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5629519269449703639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3610940917514090323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f12c419e2a76fb42a658480a41aedef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyDelay: 0.2
-  destroyEffectPrefab: {fileID: 0}
-  scoreValue: 100
-  scorelogic: {fileID: 0}
 --- !u!65 &4474386028875134070
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -183,3 +167,19 @@ MonoBehaviour:
   damageAmount: 10
   playerHealthController: {fileID: 0}
   healthControllerTag: Player
+--- !u!114 &-1667264346204431166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3610940917514090323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bb4ab455d303594c98375a7cc2ea706, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyDelay: 0.2
+  destroyEffectPrefab: {fileID: 0}
+  scoreValue: 100
+  scorelogic: {fileID: 0}
