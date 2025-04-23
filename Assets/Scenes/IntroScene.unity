@@ -1665,10 +1665,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5779608150239002450, guid: 063cc896506b947c7b2c2ae3beb5868f,
         type: 3}
+      propertyPath: m_fontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779608150239002450, guid: 063cc896506b947c7b2c2ae3beb5868f,
+        type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 3917a8bd61deca24c93eebb948476cd2,
         type: 2}
+    - target: {fileID: 5779608150239002450, guid: 063cc896506b947c7b2c2ae3beb5868f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5779608150239002450, guid: 063cc896506b947c7b2c2ae3beb5868f,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -8371,8 +8381,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29217c432ecc5b144b62bde7c7acb538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TitleLabel: {fileID: 0}
-  m_BackButton: {fileID: 0}
   score: {fileID: 0}
 --- !u!1 &2116170431
 GameObject:
