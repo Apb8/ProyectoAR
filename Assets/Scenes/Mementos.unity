@@ -438,7 +438,7 @@ MonoBehaviour:
   enemyLifeTime: 15
   moveSpeed: 0.25
   moveRadius: 1
-  indicatorPrefab: {fileID: 2225001955139885448, guid: e60aa4bb25c2c0440af70170acc8471e,
+  indicatorPrefab: {fileID: 5515736248396089483, guid: a69cd1a48d322ae43a39c1e085589ca2,
     type: 3}
 --- !u!114 &576196305
 MonoBehaviour:
@@ -525,7 +525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ca632cafb31e984cba0e2afcc8e11d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  indicatorPrefab: {fileID: 2225001955139885448, guid: e60aa4bb25c2c0440af70170acc8471e,
+  indicatorPrefab: {fileID: 5515736248396089483, guid: a69cd1a48d322ae43a39c1e085589ca2,
     type: 3}
   indicatorOffset: 50
 --- !u!1 &660236980

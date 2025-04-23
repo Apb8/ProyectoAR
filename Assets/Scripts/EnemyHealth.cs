@@ -8,15 +8,12 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private GameObject destroyEffectPrefab;
 
     [SerializeField] private int scoreValue = 100;
-    [SerializeField] private int live = 1;
-    private int maxlive;
     private AudioSource deathSound;
     public Score_logic scorelogic;
     private void Start()
     {
         deathSound = GetComponent<AudioSource>();
         scorelogic = FindObjectOfType<Score_logic>();
-        maxlive = live;
     }
 
     private void OnCollisionEnter(Collision collision)
