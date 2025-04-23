@@ -647,9 +647,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Jack-O'-Lantern
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 67579a52d37434141b890abbf9edd78e, type: 2}
-  m_sharedMaterial: {fileID: 6671663960991130638, guid: 67579a52d37434141b890abbf9edd78e,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -857,9 +856,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Jack Frost
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 67579a52d37434141b890abbf9edd78e, type: 2}
-  m_sharedMaterial: {fileID: 6671663960991130638, guid: 67579a52d37434141b890abbf9edd78e,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1394,9 +1392,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Black Frost
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 67579a52d37434141b890abbf9edd78e, type: 2}
-  m_sharedMaterial: {fileID: 6671663960991130638, guid: 67579a52d37434141b890abbf9edd78e,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1757,8 +1754,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 67579a52d37434141b890abbf9edd78e, type: 2}
-  m_sharedMaterial: {fileID: 6671663960991130638, guid: 67579a52d37434141b890abbf9edd78e,
+  m_fontAsset: {fileID: 11400000, guid: 92b59753062a4164aa069ba496508a01, type: 2}
+  m_sharedMaterial: {fileID: 6671663960991130638, guid: 92b59753062a4164aa069ba496508a01,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2693,8 +2690,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29217c432ecc5b144b62bde7c7acb538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TitleLabel: {fileID: 0}
-  m_BackButton: {fileID: 0}
   score: {fileID: 0}
 --- !u!1 &1812007874
 GameObject:
