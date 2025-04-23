@@ -110,7 +110,7 @@ public class DialogueManager : MonoBehaviour
 
         if (line.responses != null && line.responses.Length > 0)
         {
-            nextButton.gameObject.SetActive(false);//ocultamos boton para prevenir bug en movil
+            nextButton.gameObject.SetActive(false);//ocultamos boton para prevenir bug en movil , igual hay q comentar esta linea
             ShowResponses(line.responses);
         }
         else
